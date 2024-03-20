@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
+background: https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=2988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 title: From OSS to COSS
 info: |
   ## Slidev Starter Template
@@ -15,15 +15,14 @@ transition: slide-left
 mdc: true
 ---
 
+<div class="flex flex-row justify-center">
+  <img width="100" src="/tuist.png">
+  <img width="100" src="/tuist-cloud.png">
+</div>
+
 # From OSS to COSS
 
-The journey of Tuist
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+### The journey of Tuist
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -228,4 +227,4 @@ Put the developer hat aside and wear the business hat. Keep reiterating on your 
 ---
 ---
 
-# Thanks
+# サンクス ☺️
