@@ -175,6 +175,26 @@ Sadly, many large organizations don't feel to contribute in any way to the Open 
 ---
 ---
 
+# Open Source Economy
+
+## OSS's distribution cost is almost zero (creates consumer surplus)
+### But... there's an associated costs associated to maintenance and updates
+
+<br/>
+
+## The cost often grows with its usage
+### And ends up being a huge burden for maintainers
+
+<br/>
+
+## Possible paths
+- 😞 Burnout
+- 😕 Reduce the scope and set limits
+- 🌱 Find new funding sources
+
+---
+---
+
 # Phase: The commercial component
 
 - We developed **a commercial component**, [Tuist Cloud](https://tuist.io/cloud)
