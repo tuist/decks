@@ -247,6 +247,12 @@ tuist generate
 
 ---
 
+## Package transformation
+
+![Local Image](/target-transformation-without-xcframeworks.png)
+
+---
+
 ## SPM package integration
 
 - `MyProject.xcodeproj/project.pbxproj` 👉 `Tuist/Package.swift`
@@ -287,15 +293,15 @@ tuist generate
 
 ---
 
-## 90 % build reduction when using xcframeworks
-
-![Local Image](/build-with-xcframeworks.png)
-
----
-
 ## Package transformation
 
 ![Local](/target-transformation.png)
+
+---
+
+## 90 % build reduction when using xcframeworks
+
+![Local Image](/build-with-xcframeworks.png)
 
 ---
 
