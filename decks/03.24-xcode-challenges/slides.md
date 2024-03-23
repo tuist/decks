@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: ../../theme
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -43,6 +43,27 @@ Presentation slides for developers
     <carbon-logo-github />
   </a>
 </div>
+
+---
+---
+
+````md magic-move
+```swift
+struct User {
+
+}
+```
+```swift
+struct User {
+  let name: String
+}
+```
+```swift
+struct User {
+  let name: String = "Pedro"
+}
+```
+````
 
 ---
 transition: slide-left
