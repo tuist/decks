@@ -29,7 +29,7 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Anybody",
+        "sans": "Finlandica",
         "serif": "Lora",
         "mono": "Noto",
         "inter": "Inter"

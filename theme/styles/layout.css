@@ -30,26 +30,27 @@
   & p,li {
     font-family: inter;
   }
-  
+
   & p {
     color: var(--color-muted);
   }
 
   & h1 {
     color: var(--color-primary);
-    /* font-family: serif; */
+    font-weight: 600;
   }
 
   & h2 {
-    color: var(--color-secondary);
+    color: var(--color-primar);
+    font-weight: 600;
   }
 
   & h3 {
-    color: var(--color-secondary);
+    color: var(--color-primar);
   }
 
   & h4 {
-    color: var(--color-secondary);
+    color: var(--color-primar);
   }
 
   & #slide-content {
