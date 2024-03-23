@@ -24,14 +24,15 @@
   "devDependencies": {
     "@slidev/cli": "^0.48.7"
   },
-  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "dark",
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "sans": "Anybody",
+        "serif": "Lora",
+        "mono": "Noto",
+        "inter": "Inter"
       }
     }
   }

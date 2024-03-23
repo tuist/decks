@@ -45,29 +45,21 @@ Presentation slides for developers
 </div>
 
 ---
----
-
-````md magic-move
-```swift
-struct User {
-
-}
-```
-```swift
-struct User {
-  let name: String
-}
-```
-```swift
-struct User {
-  let name: String = "Pedro"
-}
-```
-````
-
----
 transition: slide-left
 ---
+
+# Title
+
+This is just an example
+
+## Subtitle
+### SubSubTitle
+#### SubSubSubTitle
+
+
+---
+---
+
 
 # Introduction
 
@@ -103,7 +95,7 @@ For reusability and maintainability. For example, *functions, actors, structs, a
 ## 2. Files 📂
 To avoid frequent conflicts when collaborating
 
-## 3. Modules *(Targets)* 📦
+## 3. Modules (Targets) 📦
 To allow reusability and improve maintainability through boundaries.
 
 ---
@@ -169,7 +161,6 @@ Learn more: https://sli.dev/guide/syntax#embedded-styles
 
 <style>
 h1 {
-  background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
   background-size: 100%;
   -webkit-background-clip: text;
