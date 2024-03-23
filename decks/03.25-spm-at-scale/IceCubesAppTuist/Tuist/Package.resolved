@@ -1,0 +1,122 @@
+{
+  "pins" : [
+    {
+      "identity" : "bodega",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mergesort/Bodega",
+      "state" : {
+        "revision" : "f0554077c178088ba11557bbdbb71775cc6a1b84",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "buttonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Dean151/ButtonKit",
+      "state" : {
+        "revision" : "ba249353c0e66bcd2f300c79df129b7ad75a5251",
+        "version" : "0.2.1"
+      }
+    },
+    {
+      "identity" : "emojitext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/divadretlaw/EmojiText",
+      "state" : {
+        "revision" : "f2c98cd10141061294dfe273a36f69258583e717",
+        "version" : "4.0.2"
+      }
+    },
+    {
+      "identity" : "keychain-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/keychain-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "d0ef1ecaabcb01bc5c3d10b685cd9fcc0f1d7fd3"
+      }
+    },
+    {
+      "identity" : "lrucache",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/LRUCache",
+      "state" : {
+        "revision" : "542f0449556327415409ededc9c43a4bd0a397dc",
+        "version" : "1.0.7"
+      }
+    },
+    {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke",
+      "state" : {
+        "revision" : "8ecbfc886da39bccb01c34abef5f2ff4073ad633",
+        "version" : "12.4.0"
+      }
+    },
+    {
+      "identity" : "purchases-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RevenueCat/purchases-ios",
+      "state" : {
+        "revision" : "12240d045cfad9f281bc21e9f09d0c33ff09b74f",
+        "version" : "4.39.0"
+      }
+    },
+    {
+      "identity" : "sfsafesymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SFSafeSymbols/SFSafeSymbols",
+      "state" : {
+        "revision" : "afd0a1da4ed62bab1413caa6dd6b60a7a7089ed2",
+        "version" : "5.2.0"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "e78ae0220e17525a15ac68c697a155eb7a672a8e",
+        "version" : "0.15.0"
+      }
+    },
+    {
+      "identity" : "swift-cmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-cmark.git",
+      "state" : {
+        "revision" : "f218e5d7691f78b55bfa39b367763f4612486c35",
+        "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "swift-markdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-markdown",
+      "state" : {
+        "revision" : "e4f95e2dc23097a1a9a1dfdfe3fe3ee44de77378",
+        "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "swiftsoup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scinfu/SwiftSoup.git",
+      "state" : {
+        "revision" : "028487d4a8a291b2fe1b4392b5425b6172056148",
+        "version" : "2.7.2"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/SwiftUI-Introspect.git",
+      "state" : {
+        "revision" : "0cd2a5a5895306bc21d54a2254302d24a9a571e4",
+        "version" : "1.1.3"
+      }
+    }
+  ],
+  "version" : 2
+}
