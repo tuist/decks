@@ -36,6 +36,21 @@ importers:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
 
+  decks/03.25-spm-at-scale:
+    dependencies:
+      '@slidev/cli':
+        specifier: ^0.48.3
+        version: 0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)
+      '@slidev/theme-default':
+        specifier: latest
+        version: 0.25.0
+      '@slidev/theme-seriph':
+        specifier: latest
+        version: 0.25.0
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.21(typescript@5.4.2)
+
   theme:
     dependencies:
       '@slidev/types':

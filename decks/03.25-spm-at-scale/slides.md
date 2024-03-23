@@ -17,8 +17,10 @@
 - Develop a package
 
 ---
+layout: center
+---
 
-## Using SPM as a manager for external dependencies
+# Using SPM as a manager for external dependencies
 
 ---
 
@@ -40,27 +42,31 @@
 
 ## Let me add one dependency...
 
-![inline](./composable-architecture.png)
+![Local Image](/composable-architecture.png)
 
 ---
+layout: center
+---
 
-![inline](./composable-architecture-dependenices.png)
+![Local Image](/composable-architecture-dependenices.png)
 
+---
+layout: two-cols
 ---
 
 ## Build time of +20 seconds
 
-![inline](./build-without-composable-architecture.png)
+![Local Image](/build-without-composable-architecture.png)
 
-![inline](./build-with-composable-architecture.png)
+::right::
+
+## ㅤ
+
+![Local Image](/build-with-composable-architecture.png)
 
 ---
 
 `.pbxproj` diff
-
-[.code-highlight: all]
-[.code-highlight: 1-12]
-[.code-highlight: 12-100]
 
 ```diff
 /* Begin PBXBuildFile section */
@@ -76,7 +82,13 @@ files = (
 +   F8A2253E2BA8586C00D6D6E8 /* Algorithms in Frameworks */,
 
 ...
+```
 
+---
+
+`.pbxproj` diff
+
+```diff
 packageReferences = (
 +   F8A2253C2BA8586C00D6D6E8 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 
@@ -130,10 +142,7 @@ packageReferences = (
 ```
 
 ---
-
-## Tuist
-
-![](./logo.png)
+layout: two-cols
 
 ---
 
@@ -142,6 +151,10 @@ packageReferences = (
 - Project generation
 - Caching, tests, and other optimizations
 - SPM integration
+
+::right::
+
+![](/logo.png)
 
 ---
 
@@ -238,7 +251,7 @@ tuist install # swift package resolve
 tuist generate
 ```
 
-![inline](./dependencies-as-xcode-projects.png)
+![Local Image](/dependencies-as-xcode-projects.png)
 
 ---
 
@@ -247,18 +260,19 @@ tuist cache
 tuist generate
 ```
 
-![inline](./dependencies-as-xcframeworks.png)
+![Local Image](/dependencies-as-xcframeworks.png)
 
 ---
 
 90 % build reduction when using xcframeworks
 
-![inline](./build-with-xcframeworks.png)
+![Local Image](/build-with-xcframeworks.png)
 
 ---
+
 ## Package transformation
 
-![inline](./target-transformation.png)
+![Local](/target-transformation.png)
 
 ---
 
@@ -271,17 +285,17 @@ tuist generate
 
 ## SPM resolution & build
 
-![inline](./spm-graph.png)
+![Local Image](/spm-graph.png)
 
 ---
 
 ## Tuist resolution & build
 
-![inline](./tuist-graph.png)
+![Local Image](/tuist-graph.png)
 
 ---
 
-![inline](./bumble-spm-graph.webp)
+![Local Image](/bumble-spm-graph.webp)
 
 _Source: Scaling iOS at Bumble_
 
