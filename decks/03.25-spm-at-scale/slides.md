@@ -1,8 +1,37 @@
+---
+# try also 'default' to start simple
+theme: ../../theme
+# random image from a curated Unsplash collection by Anthony
+# like them? see https://unsplash.com/collections/94734566/slidev
+background: https://cover.sli.dev
+# some information about your slides, markdown enabled
+title: Welcome to Slidev
+info: |
+  ## Slidev Starter Template
+  Presentation slides for developers.
+
+  Learn more at [Sli.dev](https://sli.dev)
+# apply any unocss classes to the current slide
+class: text-center
+# https://sli.dev/custom/highlighters.html
+highlighter: shiki
+# https://sli.dev/guide/drawing
+drawings:
+  persist: false
+# slide transition: https://sli.dev/guide/animations#slide-transitions
+transition: slide-left
+# enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
+mdc: true
+---
+
+
 # Fixing Swift Package Manager at scale
 
 ---
 
-## Hey 👋
+## 안녕하세요 👋
+
+<!-- yuhboseyo -->
 
 - Marek Fořt
 - Based in Berlin
@@ -137,8 +166,6 @@ packageReferences = (
 +     "version" : "1.0.2"
 +     }
 + },
-
-...
 ```
 
 ---
@@ -183,11 +210,7 @@ let project = Project(
 
 ### Tuist SPM integration
 
-[.code-highlight: all]
-[.code-highlight: 1, 6-8]
-[.code-highlight: 11, 18-20]
-
-```swift
+```swift {*|1,6-8|11,18-20}
 // Tuist/Package.swift
 import PackageDescription
 
@@ -215,11 +238,20 @@ let project = Project(
 
 ---
 
+```bash
+tuist install # swift package resolve
+tuist generate
+```
+
+![Local Image](/dependencies-as-xcode-projects.png)
+
+---
+
 ## SPM package integration
 
-- `~/Library/Developer/Xcode/DerivedData/MyProject-xxx/SourcePackages` 👉 `Tuist/.build`
 - `MyProject.xcodeproj/project.pbxproj` 👉 `Tuist/Package.swift`
 - `MyProject.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved` 👉 `Tuist/Package.resolved`
+- `~/Library/Developer/Xcode/DerivedData/MyProject-xxx/SourcePackages` 👉 `Tuist/.build`
 
 ---
 
@@ -247,15 +279,6 @@ let package = Package(
 ---
 
 ```bash
-tuist install # swift package resolve
-tuist generate
-```
-
-![Local Image](/dependencies-as-xcode-projects.png)
-
----
-
-```bash
 tuist cache
 tuist generate
 ```
@@ -264,7 +287,7 @@ tuist generate
 
 ---
 
-90 % build reduction when using xcframeworks
+## 90 % build reduction when using xcframeworks
 
 ![Local Image](/build-with-xcframeworks.png)
 
@@ -288,25 +311,40 @@ tuist generate
 ![Local Image](/spm-graph.png)
 
 ---
-
-## Tuist resolution & build
-
-![Local Image](/tuist-graph.png)
+layout: image
+image: /tuist-graph.png
+backgroundSize: 30em 22em
 
 ---
 
-![Local Image](/bumble-spm-graph.webp)
+## Tuist resolution & build
 
-_Source: Scaling iOS at Bumble_
+---
+layout: image
+image: /bumble-spm-graph.webp
+backgroundSize: 22em 22em
+
+---
+
+### _Source: Scaling iOS at Bumble_
+
+---
+layout: center
 
 ---
 
 ## What about SPM projects?
+
+---
+layout: center
 
 ---
 
 ## What about SPM projects?
 ### We support those, too!
+
+---
+layout: center
 
 ---
 
@@ -321,3 +359,10 @@ _Source: Scaling iOS at Bumble_
 - Caching, incremental test execution
 
 ---
+layout: center
+
+---
+
+# 감사합니다! 🙇‍♂️
+
+<!-- gamsahamnida -->
