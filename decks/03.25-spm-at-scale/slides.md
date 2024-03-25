@@ -5,12 +5,9 @@ theme: ../../theme
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides, markdown enabled
-title: Welcome to Slidev
+title: Fixing Swift Package Manager at scale
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  While easy-to-use, Swift Package Manager can become a liability for teams at scale due to the tight Xcode integration that locks teams away from optimizing projects. At Tuist, we set out to provide an alternative that would allow teams to keep amazing DX even when they need to integrate more and more external dependencies.
 # apply any unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -23,7 +20,6 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
 ---
-
 
 # Fixing Swift Package Manager at scale
 
@@ -41,15 +37,15 @@ mdc: true
 
 ## Swift Package Manager use-cases
 
+- Develop a package
 - External dependencies for an app
 - Modularizing an app
-- Develop a package
 
 ---
 layout: center
 ---
 
-# Using SPM as a manager for external dependencies
+# Using SPM for external dependencies
 
 ---
 
@@ -66,6 +62,12 @@ layout: center
 - Hard to optimise
 - Clean and CI build recompilations
 - `.pbxproj` diffs
+
+---
+
+# Graph resolve
+
+![Image](/resolving-graph.png)
 
 ---
 
@@ -98,26 +100,6 @@ layout: two-cols
 `.pbxproj` diff
 
 ```diff
-/* Begin PBXBuildFile section */
-+   F8A2253E2BA8586C00D6D6E8 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = F8A2253D2BA8586C00D6D6E8 /* Algorithms */; };
-...
-/* End PBXBuildFile section */
-
-...
-
-isa = PBXFrameworksBuildPhase;
-buildActionMask = 2147483647;
-files = (
-+   F8A2253E2BA8586C00D6D6E8 /* Algorithms in Frameworks */,
-
-...
-```
-
----
-
-`.pbxproj` diff
-
-```diff
 packageReferences = (
 +   F8A2253C2BA8586C00D6D6E8 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 
@@ -137,6 +119,26 @@ packageReferences = (
 +         package = F8A2253C2BA8586C00D6D6E8 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 +         productName = Algorithms;
 + };
+```
+
+---
+
+`.pbxproj` diff
+
+```diff
+/* Begin PBXBuildFile section */
++   F8A2253E2BA8586C00D6D6E8 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = F8A2253D2BA8586C00D6D6E8 /* Algorithms */; };
+...
+/* End PBXBuildFile section */
+
+...
+
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
++   F8A2253E2BA8586C00D6D6E8 /* Algorithms in Frameworks */,
+
+...
 ```
 
 ---
@@ -176,7 +178,7 @@ layout: two-cols
 ## Tuist
 
 - Project generation
-- Caching, tests, and other optimizations
+- Optimizations like binary caching
 - SPM integration
 
 ::right::
@@ -210,7 +212,7 @@ let project = Project(
 
 ### Tuist SPM integration
 
-```swift {*|1,6-8|11,18-20}
+```swift {*|1,6-8|11,18-20|*}
 // Tuist/Package.swift
 import PackageDescription
 
@@ -305,7 +307,7 @@ tuist generate
 
 ---
 
-## Using SPM as a manager for modularizing an app
+## Using SPM for modularizing an app
 
 - Manifests in Swift
 - Mostly getting rid of `.pbxproj`
@@ -339,15 +341,14 @@ layout: center
 
 ---
 
-## What about SPM projects?
+## What about SPM package projects?
 
 ---
 layout: center
 
 ---
 
-## What about SPM projects?
-### We support those, too!
+## We support those, too!
 
 ---
 layout: center
@@ -363,6 +364,19 @@ layout: center
 - Resolve at generation time
 - Retain control
 - Caching, incremental test execution
+
+---
+
+# 한국어 번역
+
+![Local image](/translated-website.png)
+
+---
+layout: center
+
+---
+
+# Get in touch if you want to help at contact@tuist.io
 
 ---
 layout: center

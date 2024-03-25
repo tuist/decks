@@ -106,6 +106,7 @@
 			children = (
 				186A51A855B6FFA2A3D5B6C4 /* Project */,
 				5694E49C66E30FC37AD039E8 /* Frameworks */,
+				7BB14FBD8A75474651F2AA6C /* Cache */,
 				B1DC3E852B66AA6F40CE9BDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +124,13 @@
 				54B7B8DB878EE08E69F2C32E /* ShareToolbarItem.swift */,
 			);
 			path = MediaUI;
+			sourceTree = "<group>";
+		};
+		7BB14FBD8A75474651F2AA6C /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cache;
 			sourceTree = "<group>";
 		};
 		B1DC3E852B66AA6F40CE9BDD /* Products */ = {
@@ -250,9 +258,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					"/Users/marekfort/Developer/IceCubesApp/Tuist/.build/checkouts/swift-cmark/extensions/include",
-					"/Users/marekfort/Developer/IceCubesApp/Tuist/.build/checkouts/swift-cmark/src/include",
-					"/Users/marekfort/Developer/IceCubesApp/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
+					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/extensions/include",
+					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/src/include",
+					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/MediaUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -329,9 +337,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					"/Users/marekfort/Developer/IceCubesApp/Tuist/.build/checkouts/swift-cmark/extensions/include",
-					"/Users/marekfort/Developer/IceCubesApp/Tuist/.build/checkouts/swift-cmark/src/include",
-					"/Users/marekfort/Developer/IceCubesApp/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
+					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/extensions/include",
+					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/src/include",
+					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/MediaUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

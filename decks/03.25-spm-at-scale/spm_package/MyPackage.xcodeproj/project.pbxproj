@@ -294,13 +294,13 @@
 					"-package-name",
 					MyPackage,
 					"-load-plugin-executable",
-					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/12d6f5ab1c4c188a81adbc91106982a4/PerceptionMacros.macro#PerceptionMacros",
-					"-load-plugin-executable",
 					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/a13bc6e212513a0f903e382d7aaab50f/CasePathsMacros.macro#CasePathsMacros",
 					"-load-plugin-executable",
-					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/bda401513452f91ed45f34f7ec98d482/ComposableArchitectureMacros.macro#ComposableArchitectureMacros",
+					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/12d6f5ab1c4c188a81adbc91106982a4/PerceptionMacros.macro#PerceptionMacros",
 					"-load-plugin-executable",
 					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/8f67b0aa76b44ef798bb542c1d23a3ef/DependenciesMacrosPlugin.macro#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/bda401513452f91ed45f34f7ec98d482/ComposableArchitectureMacros.macro#ComposableArchitectureMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MyPackage;
 				PRODUCT_NAME = MyPackage;
@@ -480,13 +480,13 @@
 					"-package-name",
 					MyPackage,
 					"-load-plugin-executable",
-					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/8f67b0aa76b44ef798bb542c1d23a3ef/DependenciesMacrosPlugin.macro#DependenciesMacrosPlugin",
-					"-load-plugin-executable",
 					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/bda401513452f91ed45f34f7ec98d482/ComposableArchitectureMacros.macro#ComposableArchitectureMacros",
 					"-load-plugin-executable",
-					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/12d6f5ab1c4c188a81adbc91106982a4/PerceptionMacros.macro#PerceptionMacros",
-					"-load-plugin-executable",
 					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/a13bc6e212513a0f903e382d7aaab50f/CasePathsMacros.macro#CasePathsMacros",
+					"-load-plugin-executable",
+					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/8f67b0aa76b44ef798bb542c1d23a3ef/DependenciesMacrosPlugin.macro#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"/Users/marekfort/.cache/tuist-cloud/BinaryCache/12d6f5ab1c4c188a81adbc91106982a4/PerceptionMacros.macro#PerceptionMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MyPackage;
 				PRODUCT_NAME = MyPackage;
