@@ -27,8 +27,13 @@
 
 .dark {
 
+  li {
+    font-size: 30px;
+  }
+  font-size: 15px;
+
   & p,li {
-    font-family: inter;
+    /* font-family: inter; */
   }
 
   & p {

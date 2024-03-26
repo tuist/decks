@@ -30,8 +30,9 @@ mdc: true
 <!-- yuhboseyo -->
 
 - Marek Fořt
-- Based in Berlin
+- Based in Berlin, from Prague
 - Core maintainer of Tuist, co-founder of Tuist Cloud
+- @marekfort
 
 ---
 
@@ -82,22 +83,20 @@ layout: center
 ![Local Image](/composable-architecture-dependenices.png)
 
 ---
-layout: two-cols
 ---
 
 ## Build time of +20 seconds
 
-![Local Image](/build-without-composable-architecture.png)
-
-::right::
-
-## ㅤ
-
-![Local Image](/build-with-composable-architecture.png)
+<div class="flex flex-col justify-start pt-20 items-center w-full h-full">
+    <div class="grid grid-cols-2 grid-rows-1 gap-4">
+        <img src="/build-without-composable-architecture.png">
+        <img src="/build-with-composable-architecture.png">
+    </div>
+</div>
 
 ---
 
-`.pbxproj` diff
+## `.pbxproj` diff
 
 ```diff
 packageReferences = (
@@ -123,7 +122,7 @@ packageReferences = (
 
 ---
 
-`.pbxproj` diff
+## `.pbxproj` diff
 
 ```diff
 /* Begin PBXBuildFile section */
@@ -143,7 +142,7 @@ files = (
 
 ---
 
-`MyProject.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved`
+##### `MyProject.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved`
 
 ```diff
 + "originHash" : "106edf564c4e4ea42abffecca7659ced173d93699df9a8511c3dad2a538a6813",
@@ -210,7 +209,7 @@ let project = Project(
 
 --- 
 
-### Tuist SPM integration
+## Tuist SPM integration
 
 ```swift {*|1,6-8|11,18-20|*}
 // Tuist/Package.swift
@@ -245,7 +244,7 @@ tuist install # swift package resolve
 tuist generate
 ```
 
-![Local Image](/dependencies-as-xcode-projects.png)
+<img class="h-100" src="/dependencies-as-xcode-projects.png">
 
 ---
 
@@ -291,7 +290,7 @@ tuist cache
 tuist generate
 ```
 
-![Local Image](/dependencies-as-xcframeworks.png)
+<img class="h-100" src="/dependencies-as-xcframeworks.png">
 
 ---
 
