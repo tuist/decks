@@ -26,15 +26,7 @@
 }
 
 .dark {
-
-  li {
-    font-size: 30px;
-  }
-  font-size: 15px;
-
-  & p,li {
-    /* font-family: inter; */
-  }
+  font-size: 17px;
 
   & p {
     color: var(--color-muted);
@@ -46,16 +38,16 @@
   }
 
   & h2 {
+    @apply mt-4;
     color: var(--color-primar);
     font-weight: 600;
+    font-size: 23px;
   }
 
   & h3 {
+    @apply mt-4;
     color: var(--color-primar);
-  }
-
-  & h4 {
-    color: var(--color-primar);
+    font-size: 20px;
   }
 
   & #slide-content {

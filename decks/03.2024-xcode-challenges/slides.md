@@ -13,24 +13,8 @@ layout: cover
 
 # Challenges of using Xcode at scale
 
-Learnings from building [Tuist](https://tuist.io)
-
----
-transition: slide-left
----
-
-# Title
-
-This is just an example
-
-## Subtitle
-### SubSubTitle
-#### SubSubSubTitle
-
-
 ---
 ---
-
 
 # Introduction
 
@@ -42,615 +26,205 @@ This is just an example
 - Creator of Tuist and co-founder and CEO of Tuist GmbH
 
 ---
-transition: slide-left
 ---
 
-# Building a product is hard
+# Development stack
 
-Specially at the pace at which Apple ecosystem moves
+## 1. Concepts
+Provide a **common language** across the platforms
 
-The following content is my perception of how past Xcode design decisions might have a negative impact on its usage at scale.
-What led to the decisions is unknown.
+## 2. Xcode projects and workspaces
+Provide an API to **describe** the project
 
----
-transition: slide-left
----
+## 3. Xcode build system
+Provide a tool to **compile** the project
 
-# A classic path to scale
-
-<br/>
-
-## 1. Abstractions ✏️
-For reusability and maintainability. For example, functions, actors, structs, and tasks.
-
-## 2. Files 📂
-To avoid frequent conflicts when collaborating
-
-## 3. Modules (Targets) 📦
-To allow reusability and improve maintainability through boundaries.
+## 4. Xcode
+Provide a tool to **interact** with the project
 
 ---
-transition: slide-left
 ---
 
-## Targets 📦
-
-*Unit of encapsulation of various source files with a well-defined public interface*
-
-### In the early days of Xcode
-
-- 1 project 📂
-- 1 app (macOS) 💻
-- 1 module 📦
-
-<br/>
-
-### These days...
-
-- 1 workspace 📂
-- Multiple projects 📂
-- Multiple platforms (⌚️💻📱👓)
-- Multiple products (app, extensions)
-- Multiple modules per project
-- Multiple external modules
-
----
-transition: slide-left
----
-
-# Supporting the growth through Xcode
-
-- Xcode tried to keep up with the growth.
-- And they 
-
----
-transition: slide-left
----
-
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover![^1]
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn More](https://sli.dev/guide/animations#click-animations)
-
-</div>
-
----
-preload: false
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
+# Targets 📦
+
+Unit of encapsulation of various source files with a well-defined public interface
+
+<div class="grid grid-cols-2">
+  <div>
+    <h2>In the early days of Xcode</h2>
+    <ul>1 project 📂</ul>
+    <ul>1 app (macOS) 💻</ul>
+    <ul>1 target 📦</ul>
   </div>
+  <!-- <div>
+    <h2>These days...</h2>
+    <ul>1 workspace 📂</ul>
+    <ul>Multiple projects 📚</ul>
+    <ul>Multiple platforms (⌚️💻📱👓)</ul>
+    <ul>Multiple products (app, extensions)</ul>
+    <ul>Multiple targets per project</ul>
+    <ul>Multiple external targets (packages)</ul>
+  </div> -->
+</div>
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+---
+---
+
+# But the environment changed...
+
+---
+---
+
+
+# Targets 📦
+
+Unit of encapsulation of various source files with a well-defined public interface
+
+<div class="grid grid-cols-2">
+  <div>
+    <h2>In the early days of Xcode</h2>
+    <ul>1 project 📂</ul>
+    <ul>1 app (macOS) 💻</ul>
+    <ul>1 target 📦</ul>
+  </div>
+  <div>
+    <h2>These days...</h2>
+    <ul>1 workspace 📂</ul>
+    <ul>Multiple projects 📚</ul>
+    <ul>Multiple platforms (⌚️💻📱👓)</ul>
+    <ul>Multiple products (app, extensions)</ul>
+    <ul>Multiple targets per project</ul>
+    <ul>Multiple external targets (packages)</ul>
   </div>
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
+---
 ---
 
-# LaTeX
+# Concepts, Xcode projects and workspaces, build system, and editor need to evolve too...
 
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
+## And they had to make great decisions quicky
 
 ---
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectivness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
----
-src: ./pages/multiple-entries.md
-hide: false
 ---
 
----
+# Convenience vs. scalability
 
-# Monaco Editor
+- **Convenience:**
+  - Sensible defaults
+  - Build-time resolution of implicitness
 
-Slidev provides built-in Moanco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import hello from './external'
-
-const code = ref('const a = 1')
-hello()
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-function fibonacci(n: number): number {
-  return n <= 1
-    ? n
-    : fibonacci(n - 1) + fibonacci(n - 2) // you know, this is NOT the best way to do it :P
-}
-
-console.log(Array.from({ length: 10 }, (_, i) => fibonacci(i + 1)))
-```
+- **Scalability:**
+  - Explicitness
+  - Predictability
 
 ---
-layout: center
-class: text-center
 ---
 
-# Learn More
+# Challenges
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+1. Unmaintainable dependency graphs
+2. Implicit dependencies
+3. Unreliable SwiftUI previews
+4. Slow compilation of Swift Macros
+5. Non-optimizable workflows
+6. Slow Swift Package Manager integration
+
+---
+---
+
+# 1. Unmaintainable dependency graphs
+
+- New targets in the graph might have upstream effects (e.g. embedding into products)
+- The graph is not visible in the UI
+- The graph is implicitly codified into the project files
+
+## What can I do about it 🧐
+- Make it explicit through tools like [Tuist](https://tuist.io), SPM, or Bazel
+- Keep graphs simple and shallow
+
+---
+---
+
+# 2. Implicit dependencies
+
+- Two types:
+  1. Opted-in through the "Find implicit dependencies" scheme option
+  2. Accidental due to shared built products directory
+- Non-declared dependencies can resolve implicitly (fine at small scale)
+- But can lead to build issues and headaches at scale
+
+## What can I do about it 🧐
+- Disable "Find implicit dependencies from schemes"
+- Use [Tuist](https://tuist.io) and enable "force explicit dependencies".
+
+---
+---
+
+# 3. Unreliable SwiftUI previews
+
+- SwiftUI previews might not work.
+  - Even if the app compiles
+
+## What can I do about it 🧐
+- Ensure scripts' input and output files are accurate
+  - Or just avoid them
+- Prefer dynamic products over static ones
+- Use module-scoped example apps
+
+---
+---
+
+# 4. Slow compilation of Swift Macros
+
+- Swift Macros might have a deep dependency tree (mostly SwiftSyntax)
+- Can add a lot of compilation time to clean builds
+
+## What can I do about it 🧐
+- Precompile Swift Macros
+  - And use build settings and phases to integrate them
+- Avoid the current "Macro-all-the-things" trends
+  - They have a cost not many people talk about
+  - A strong dependency with a build system not designed for scale
+
+---
+---
+
+# 5. Non-optimizable workflows
+
+- Xcode's editor and build system are strongly coupled
+- You can't optimize compilation steps
+
+## What can I do about it 🧐
+- Replace the build system with Bazel (costly)
+- Use [Tuist](https://tuist.io) and [Tuist Cloud](https://tuist.io/cloud)
+
+---
+---
+
+# 6. Slow Swift Package Manager integration
+
+- You have no control over when the SPM graph is resolved
+- The resolution might be slow and happen at any time (e.g. when adding a file)
+- SPM's design principles didn't account for project management usage
+  - And that's becoming apparent as companies use it for that.
+- The fact that you can use it for project management, doesn't mean it's designed for it.
+
+## What can I do about it 🧐
+- Use it only for integrating external dependencies
+- Use [Tuist](https://tuist.io)'s XcodeProj-based integration.
+
+---
+---
+
+# Summing it up
+
+
+1. Broadly used != Being suitable for scale (e.g. Swift Macros)
+2. Optimizations require explicitness. Apple leans on implicitness to provide convenience
+3. Swift Package Manager is a package manager, not a solution for project management at scale
+4. Making Xcode work at scale with little cost is feasible, we do it at Tuist
+---
+---
+
+# 고마워요 😀
