@@ -129,6 +129,7 @@ Unit of encapsulation of various source files with a well-defined public interfa
 4. Slow compilation of Swift Macros
 5. Non-optimizable workflows
 6. Slow Swift Package Manager integration
+7. Mergable mess
 
 ---
 ---
@@ -213,6 +214,23 @@ Unit of encapsulation of various source files with a well-defined public interfa
 ## What can I do about it 🧐
 - Use it only for integrating external dependencies
 - Use [Tuist](https://tuist.io)'s XcodeProj-based integration.
+
+---
+---
+
+# 7. Mergable mess
+
+- Slow compilation or slow build time
+  - Dynamic frameworks are easier to integrate but impact build times negatively
+  - Static frameworks are harder to integrate but increase build times
+- Apple's response
+  - Some configuration-based build-time magic
+  - But...
+    - The result is more unpredictable
+    - The graph is harder to reason about
+
+## What can I do about it 🧐
+- Use [Tuist](https://tuist.io) to statically switch between static and dynamic
 
 ---
 ---
