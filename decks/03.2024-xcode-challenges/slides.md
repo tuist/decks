@@ -222,8 +222,10 @@ Unit of encapsulation of various source files with a well-defined public interfa
 
 1. Broadly used != Being suitable for scale (e.g. Swift Macros)
 2. Optimizations require explicitness. Apple leans on implicitness to provide convenience
+3. More implicit configuration resolved at build time == More unpredictable behaviours
 3. Swift Package Manager is a package manager, not a solution for project management at scale
 4. Making Xcode work at scale with little cost is feasible, we do it at Tuist
+
 ---
 ---
 

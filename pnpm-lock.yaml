@@ -6,6 +6,12 @@ settings:
 
 importers:
 
+  .:
+    devDependencies:
+      playwright-chromium:
+        specifier: ^1.42.1
+        version: 1.42.1
+
   decks/03.2024-from-open-source-to-coss:
     dependencies:
       '@slidev/cli':
@@ -2179,6 +2185,16 @@ packages:
 
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
+
+  playwright-chromium@1.42.1:
+    resolution: {integrity: sha512-VelpmKJ+3G3QlAFfA9JIuEYyU8b8vQrlIPY3tIaGv+adn7mem56SP04e+zMudcxisfOT3suQOSTD1qs6YErdDg==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+  playwright-core@1.42.1:
+    resolution: {integrity: sha512-mxz6zclokgrke9p1vtdy/COWBH+eOZgYUVVU34C73M+4j4HLlQJHtfcqiqqxpP0o8HhMkflvfbquLX5dg6wlfA==}
+    engines: {node: '>=16'}
+    hasBin: true
 
   points-on-curve@0.2.0:
     resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
@@ -5401,6 +5417,14 @@ snapshots:
       pathe: 1.1.2
 
   plantuml-encoder@1.4.0: {}
+
+  playwright-chromium@1.42.1:
+    dependencies:
+      playwright-core: 1.42.1
+    dev: true
+
+  playwright-core@1.42.1:
+    dev: true
 
   points-on-curve@0.2.0: {}
 
