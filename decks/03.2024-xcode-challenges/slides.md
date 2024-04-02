@@ -27,6 +27,16 @@ layout: cover
 
 ---
 ---
+<div class="w-full h-full">
+  <img src="/logo.png" class="w-50"/>
+  <h1>Tuist</h1>
+  <h2>Xcode project management</h2>
+  <h3>(We fight Xcode intricacies, so that you don't have to)</h3>
+  <h4>For my parents: we help developers stay productive</h4>
+</div>
+
+---
+---
 
 # Development stack
 
@@ -211,6 +221,16 @@ Unit of encapsulation of various source files with a well-defined public interfa
   - And that's becoming apparent as companies use it for that.
 - The fact that you can use it for project management, doesn't mean it's designed for it.
 
+---
+---
+
+<div class="w-full flex flex-row align-center justify-center">
+  <img src="/spm.webp" class="w-120"/>
+</div>
+
+---
+---
+
 ## What can I do about it 🧐
 - Use it only for integrating external dependencies
 - Use [Tuist](https://tuist.io)'s XcodeProj-based integration.
@@ -231,6 +251,11 @@ Unit of encapsulation of various source files with a well-defined public interfa
 
 ## What can I do about it 🧐
 - Use [Tuist](https://tuist.io) to statically switch between static and dynamic
+
+---
+---
+
+# Demo time
 
 ---
 ---
