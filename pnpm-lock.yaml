@@ -12,11 +12,11 @@ importers:
         specifier: ^1.42.1
         version: 1.42.1
 
-  decks/03.2024-from-open-source-to-coss:
+  decks/2024.03-from-open-source-to-coss:
     dependencies:
       '@slidev/cli':
         specifier: ^0.48.3
-        version: 0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)
+        version: 0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -27,11 +27,11 @@ importers:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
 
-  decks/03.2024-tuist-qa:
+  decks/2024.03-spm-at-scale:
     dependencies:
       '@slidev/cli':
         specifier: ^0.48.3
-        version: 0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)
+        version: 0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -42,11 +42,11 @@ importers:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
 
-  decks/03.2024-xcode-challenges:
+  decks/2024.03-tuist-qa:
     dependencies:
       '@slidev/cli':
         specifier: ^0.48.3
-        version: 0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)
+        version: 0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -57,11 +57,11 @@ importers:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
 
-  decks/03.25-spm-at-scale:
+  decks/2024.03-xcode-challenges:
     dependencies:
       '@slidev/cli':
         specifier: ^0.48.3
-        version: 0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)
+        version: 0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -86,7 +86,7 @@ importers:
     devDependencies:
       '@slidev/cli':
         specifier: ^0.48.7
-        version: 0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)
+        version: 0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)
 
 packages:
 
@@ -3288,7 +3288,7 @@ snapshots:
   '@sindresorhus/merge-streams@2.3.0':
     optional: true
 
-  '@slidev/cli@0.48.7(@types/markdown-it@13.0.7)(postcss@8.4.36)':
+  '@slidev/cli@0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)':
     dependencies:
       '@antfu/ni': 0.21.12
       '@antfu/utils': 0.7.7
@@ -3332,6 +3332,7 @@ snapshots:
       open: 10.1.0
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
+      playwright-chromium: 1.42.1
       postcss-nested: 6.0.1(postcss@8.4.36)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -5421,10 +5422,8 @@ snapshots:
   playwright-chromium@1.42.1:
     dependencies:
       playwright-core: 1.42.1
-    dev: true
 
-  playwright-core@1.42.1:
-    dev: true
+  playwright-core@1.42.1: {}
 
   points-on-curve@0.2.0: {}
 
