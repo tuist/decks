@@ -12,6 +12,21 @@ importers:
         specifier: ^1.42.1
         version: 1.42.1
 
+  decks/2024.03-building-a-cli-that-your-users-and-contributors-love:
+    dependencies:
+      '@slidev/cli':
+        specifier: ^0.48.3
+        version: 0.48.7(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.36)
+      '@slidev/theme-default':
+        specifier: latest
+        version: 0.25.0
+      '@slidev/theme-seriph':
+        specifier: latest
+        version: 0.25.0
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.21(typescript@5.4.2)
+
   decks/2024.03-from-open-source-to-coss:
     dependencies:
       '@slidev/cli':
