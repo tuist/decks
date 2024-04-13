@@ -11,10 +11,7 @@
     "slidev": ">=0.19.3"
   },
   "scripts": {
-    "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
-    "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+
   },
   "dependencies": {
     "@slidev/types": "^0.48.7",

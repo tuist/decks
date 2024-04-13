@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# mise description="Sets up the project for development"
+
+pnpm install -C $MISE_PROJECT_ROOT
