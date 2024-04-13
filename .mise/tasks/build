@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# mise description="Builds all the decks in the workspace"
+
+pnpm run -C $MISE_PROJECT_ROOT -r build
