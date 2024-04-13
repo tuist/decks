@@ -11,7 +11,7 @@ mdc: true
 layout: cover
 ---
 
-# Challenges of using Xcode at scale
+# Building Swift CLIs that your users and contributors love
 
 ---
 ---
