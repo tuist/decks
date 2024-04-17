@@ -1,5 +1,5 @@
 :root {
-  --slidev-theme-primary: #5d8392;
+  --slidev-theme-primary: #D2FF96;
   --color-primary: #FCF7FF;
   --color-secondary: #D2FF96;
   --color-accent: #FBAF00;
@@ -30,7 +30,7 @@
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(180deg, rgba(120,50,255,1) 0%, rgba(72,0,174,1) 100%); /* Example gradient */
+  background: linear-gradient(180deg, #7832ff 0%, rgba(72,0,174,1) 100%); /* Example gradient */
   color: white; /* For contrast with the gradient */
 }
 
@@ -54,5 +54,17 @@ h3 {
   @apply mt-4;
   color: var(--color-primar);
   font-size: 20px;
+}
+
+ul {
+  list-style-position: inside !important; 
+}
+
+ol {
+  list-style-position: inside !important; 
+}
+
+li {
+  margin-left: 20px !important; 
 }
 
