@@ -29,7 +29,7 @@ mdc: true
 <img src="/logo.png" class="w-50"/>
 <h1>Tuist</h1>
 <h2>Xcode senza pensieri</h2>
-<h3>(We fight Xcode intricacies, so that you don't have to)</h3>
+<h3>We fight Xcode intricacies, so that you don't have to</h3>
 <h4>For my parents: we help developers stay productive</h4>
 
 ---
