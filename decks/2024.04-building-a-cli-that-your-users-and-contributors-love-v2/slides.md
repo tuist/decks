@@ -23,14 +23,16 @@ mdc: true
 - Berlin-based 
 - Open Source and developer tooling passionate
 - Creator and maintainer of [Tuist](https://github.com/tuist/tuist) and [XcodeProj](https://github.com/tuist/xcodeproj)
+- Working full-time on Tuist & [Tuist Cloud](https://tuist.io/cloud)
 
 ---
 
 <img src="/logo.png" class="w-50"/>
 <h1>Tuist</h1>
 <h2>Xcode senza pensieri</h2>
-<h3>(We fight Xcode intricacies, so that you don't have to)</h3>
-<h3>For my parents: we help developers stay productive</h3>
+We fight Xcode intricacies, so that you don't have to
+
+(Find me after the talk for a t-shirt or stickers)
 
 ---
 
