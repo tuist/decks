@@ -1,6 +1,6 @@
 // swift-tools-version:5.10
 
-import PackageDescription
+@preconcurrency import PackageDescription
 
 let package = Package(
     name: "MyApp",

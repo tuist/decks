@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00B61BAAF24B7C76CCA33882 /* glass.caf in Resources */ = {isa = PBXBuildFile; fileRef = 486704CB61D5B7F173796986 /* glass.caf */; };
-		03CE9AD734091FF227B771AB /* Nuke.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12733131907218964A260F55 /* Nuke.xcframework */; };
-		047E2FC67C0531CFBFA226CE /* Explore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575803C8D19AF3B86BD2EDB5 /* Explore.xcframework */; };
 		0531E5FA1314732FB4153965 /* NavigationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94715E97525D19D2CDC901 /* NavigationTab.swift */; };
 		070DC31BAAF31E4CA38776FE /* AddAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA90130D2855FF3FA8A0C3 /* AddAccountsView.swift */; };
-		087C32D3AFD252535FC82E4F /* Conversations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DF2794D0218F53EA2D5E4D /* Conversations.xcframework */; };
 		0C98A70353D620EF67DE5F19 /* IconSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD3E8B60FE2ECC5ACB480B /* IconSelectorView.swift */; };
+		0ED9D4699C4B83AF69002A3F /* RevenueCat_RevenueCat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD1AA889DBFDC81D32FDC7F2 /* RevenueCat_RevenueCat.bundle */; };
 		0F0CC0453365A6D41283E3CF /* AddRemoteTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D917EF94CF8278BAEE195DDA /* AddRemoteTimelineView.swift */; };
-		107EA88545C9B16838E9E7EB /* DesignSystem.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646DDAAF16F28968ED1B4786 /* DesignSystem.xcframework */; };
 		1314F4BEEA58776A2476A633 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0193E128E72446C99215BB /* AppView.swift */; };
+		14648306E1D05A90F6A52C0F /* Account.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6133284CEA1CA660DCBF0D /* Account.framework */; };
+		1758F75BAF72023B98E10A56 /* SwiftSoup_SwiftSoup.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = FB3745D3CC049102531292D5 /* SwiftSoup_SwiftSoup.bundle */; };
 		18FC4E7FB93FC318B8C8DAAC /* EditTagGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5B25AB093A2093D554EFA /* EditTagGroupView.swift */; };
 		1D852AC73A1AC5CBCAB90E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E39C815BFE08A383944015 /* Assets.xcassets */; };
 		1FD25E19DC3E1A9DF9EB2F43 /* RemoteTimelinesSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F9636F4395E8F512CED35 /* RemoteTimelinesSettingView.swift */; };
@@ -24,74 +23,78 @@
 		22B6B825479789A22E73DD96 /* NotificationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FDB1492A5DD4253C410B3D /* NotificationTab.swift */; };
 		2432C95103F15E5917E3A2A0 /* InstanceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC568CEFF6EEA37516BA5C /* InstanceInfoView.swift */; };
 		2562C5B90B87B8A3B4F2BA24 /* ExploreTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851D8913F7925D7DC092E1F /* ExploreTab.swift */; };
-		25D569850C9D01005786BE11 /* CAtomic.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2EBAD850DA2A7475F3058 /* CAtomic.xcframework */; };
+		2679C454A983E5249C01A1F5 /* RevenueCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122A675DC295F448613DF41 /* RevenueCat.framework */; };
+		28116A47C6DA363BAE2A29D2 /* Lists.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA030CDEA1E250BE2A269EC /* Lists.framework */; };
 		28DE968D74A472B0AB9525C9 /* IceCubesApp+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23BAA6E3AD97150F360169 /* IceCubesApp+Menu.swift */; };
-		2E87E57850C50F271A98D009 /* SwiftSoup.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED6D3B43621DF65147C586A /* SwiftSoup.xcframework */; };
-		339660B206DF228A85C01583 /* StatusKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2233EC1E5A2110D984E5C568 /* StatusKit.xcframework */; };
+		2944CE1E975C03356E2BBF45 /* SwiftSoup_SwiftSoup.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB3745D3CC049102531292D5 /* SwiftSoup_SwiftSoup.bundle */; };
+		2AA985A8DBC5F4DF5165E04B /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A279C605265CB98C7D92739 /* SQLite.framework */; };
 		346E9BB83778A6AA982B6B4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78414979EB27CEEE71F8B9AA /* Preview Assets.xcassets */; };
-		36B8F56D028971003897F9AA /* Lists.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045A5984B07CBE06DBD7C28A /* Lists.xcframework */; };
 		370C5363E4AF47473CD4AA7E /* TimelineTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C06FAFC1C060564883066 /* TimelineTab.swift */; };
 		373D92CE2EEB0AC8CFBFC6C6 /* TuistBundle+IceCubesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629F25C6C48CE1BE050E9D6 /* TuistBundle+IceCubesApp.swift */; };
 		38166E8A35DB5F3BA96A6D7E /* Atkinson-Hyperlegible-Regular-102.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE7402E962CBE163CB9BF87 /* Atkinson-Hyperlegible-Regular-102.ttf */; };
-		4092E7C15C7B15D4ADA2FC8D /* KeychainSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1187D1CB5E27FD997DA1301A /* KeychainSwift.xcframework */; };
 		44186B1D06436ABF05ED8163 /* IceCubesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74F6D3B4F8E13077614EF2 /* IceCubesApp.swift */; };
 		44F153D804186F1438A583B1 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149CA2567E7F2D67B0F14A2 /* AboutView.swift */; };
-		49BA367ED62F16566C746344 /* ButtonKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F011A3924407E4BE1D0007 /* ButtonKit.xcframework */; };
 		49E6F0D969873658EF1260CA /* AppRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B5355A7B3703FF80BCCBF /* AppRegistry.swift */; };
-		4E2E170F28726260F24ACE69 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC8DEB2E8D1586DE654E50 /* DesignSystem_DesignSystem.bundle */; };
-		50B5131B8A49AC19E65EB5E3 /* cmark-gfm-extensions.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E9D5D1343A83F34A5166CA /* cmark-gfm-extensions.xcframework */; };
 		50DD0876B032DF577C0C6EED /* pull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 733A9FB6F3A10FA6D2B725A5 /* pull.wav */; };
+		538177968700746FC6E45586 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28AF0EA77E4A64A37E757F3 /* Models.framework */; };
+		57945D2A2AFAA725C28180EF /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EC7BF3C46F192713282869 /* SwiftSoup.framework */; };
+		58FF9864B0FBD82778BF7896 /* Bodega.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A660FBE6496A07950752C4 /* Bodega.framework */; };
 		5C39FE6B1FCB6E1CB9BD5AB7 /* SidebarEntriesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E804BD1AA5CA73F3320A8 /* SidebarEntriesSettingsView.swift */; };
-		5CF73CBD1D426C6A753BA98B /* RevenueCat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6646E0EE1FC52348DC038E /* RevenueCat.xcframework */; };
 		5F0B00B02B3E6B8B05FC44C6 /* refresh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DDF15D836BAC4EBE7B96C07 /* refresh.wav */; };
+		5F45E3AA2EAAAD930B309660 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AD8CF16365C23CA7E145CE /* Nuke.framework */; };
 		5F8C18C985748EB24C5CA006 /* boost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7028FA985E04A62E86A872BC /* boost.wav */; };
 		5FD133FD232EF6CCAF9888DE /* SafariRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94EF0BC4EB45D7B5F7D0AA1 /* SafariRouter.swift */; };
 		6189437DD13649BB1CA1F874 /* RecenTagsSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751955833413D138FA91E90 /* RecenTagsSettingView.swift */; };
+		66BB6B2829C824382B8FADCE /* Timeline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6C344536002E85CD20D62 /* Timeline.framework */; };
 		6817EC7235E04ECFD1010D17 /* NavigationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A7B1A89F82AB6E0C16F82 /* NavigationSheet.swift */; };
+		6A38572BBC3032BF3162115A /* MediaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B0AE1980B35A95F2A10FB9 /* MediaUI.framework */; };
 		6EF8E6320A1097BB8721E301 /* ContentSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75F38DE5023B148E1015BB4 /* ContentSettingsView.swift */; };
+		710263F9904805417B7CDA20 /* cmark_gfm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B0E870EB9C8C4135A1C98 /* cmark_gfm.framework */; };
 		714C226036CAA7D6B694B365 /* bookmark.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6470EEFF3662788B692883D3 /* bookmark.wav */; };
 		7421B50BC420E509E0ADB37E /* TuistAssets+IceCubesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E99D7E6B15EA5C6B364580 /* TuistAssets+IceCubesApp.swift */; };
+		75631A3561EED472857E8816 /* SFSafeSymbols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DC6E8CC74F93714A4840F /* SFSafeSymbols.framework */; };
+		78628AD3B51F75427D17E00D /* Explore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E59AD5B39CA121A2F836E7 /* Explore.framework */; };
 		79A77EB051BA742F640B0EC5 /* TuistFonts+IceCubesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926F226E1862E13BBB9C461 /* TuistFonts+IceCubesApp.swift */; };
-		79D97033D36E2AC7EAEAEAB4 /* EmojiText.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006A75EE871CFF785271877 /* EmojiText.xcframework */; };
 		79DED10FEED981DA9CCA876F /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E48D30BC2CE852B1A34665F5 /* OpenDyslexic-Regular.otf */; };
 		7AAE6424FF87185A0EEBA95A /* SwipeActionsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476FBD48666C63DFF9B07F8 /* SwipeActionsSettingsView.swift */; };
 		8341FED0F037DC5338A6E624 /* IceCubesApp+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88098E27B029C6E37BDD6295 /* IceCubesApp+Scene.swift */; };
+		8670C5F3348A3934C4C494E8 /* Env.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922D039BBB866F73EC709C7A /* Env.framework */; };
 		86F6627D1DF683C4AD85D331 /* MessagesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED63E184E72928E611FC5DB9 /* MessagesTab.swift */; };
-		8A8370E9D571081613825D97 /* Account.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E506ED0E5F436415FE06F9 /* Account.xcframework */; };
+		8D1828BDAB4F64D75BD59C26 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 6CCF8956FA21A95849B5775F /* DesignSystem_DesignSystem.bundle */; };
+		8EF3C315BABB56C6F442A733 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D802BA5CADA3C72CE8674 /* KeychainSwift.framework */; };
 		948235C52B5B172F64271771 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C39663E800677BDE8C8A80 /* Tabs.swift */; };
-		95A6B74E2BE73CA235D6C5E6 /* RevenueCat_RevenueCat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79546D67E8CFB23D8C1988DB /* RevenueCat_RevenueCat.bundle */; };
+		9A98A9BDBC5A97629F08E358 /* cmark_gfm_extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904E3633CEA4E06038E3881B /* cmark_gfm_extensions.framework */; };
 		9AF2BF94B394F50D965AE6DF /* TranslationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93C9569DC1A1E5C2A7A89EA /* TranslationSettingsView.swift */; };
-		A713BA57209F73F70D8EA4D6 /* SwiftSoup_SwiftSoup.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 362DC8EBFE40FA9982C50874 /* SwiftSoup_SwiftSoup.bundle */; };
-		A7FDF5AFCACCE3AF62765858 /* AppAccount.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49537590BF365A419A10F138 /* AppAccount.xcframework */; };
-		B1D1ECF091D2739566D7CBE8 /* cmark-gfm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CCDD1F83B61ED4B190110C /* cmark-gfm.xcframework */; };
+		9E5C16266E5EB2E611CA7D73 /* SwiftUIIntrospect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B1A79A318B58A3D421737 /* SwiftUIIntrospect.framework */; };
+		A87911E3EF2E63FC04E009FB /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1FA389BECEEF2B8F5AC26 /* Network.framework */; };
+		AD610250DD9249A9C4D6A839 /* NukeUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7AAFA84571A95EEC43710 /* NukeUI.framework */; };
 		B4FDAAA01B39FB4C5D0FB352 /* share.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9881C0932A4136257756CF51 /* share.wav */; };
-		B522F8A6F1F27106513D0BE2 /* Markdown.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFD2C16AD7AE4223E470C3E /* Markdown.xcframework */; };
 		B5296D784E1D25657DAD3A9C /* DisplaySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD608FA09D557B2D99D91743 /* DisplaySettingsView.swift */; };
 		BA1F170501ACE5F278A2CA00 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CDC45A9E8800C5FB33B0C8 /* ReportView.swift */; };
-		BAE1753CC5D42E4B9E26967D /* SQLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCDEC65FBA6DB7AA9A7E831 /* SQLite.xcframework */; };
+		BC355CD7612F4BB5689DC361 /* AppAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89D3E31E6DD5045E1310114 /* AppAccount.framework */; };
 		BCD47A0110CF9A8CA0E9AA39 /* tootSent.wav in Resources */ = {isa = PBXBuildFile; fileRef = A05D5434D6524243429DE177 /* tootSent.wav */; };
 		C0531F95EE516027AAA57D66 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04AC5F5D01ED96098AE576C /* ProfileTab.swift */; };
 		C2F43B5D916D6E3C4A969B6E /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 246A9BD6F18E0D7BAC42C0A2 /* glass.wav */; };
 		C590AF08E416AD926FAF1BD7 /* tabSelection.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCD752A152AA99AF25BF23D3 /* tabSelection.wav */; };
+		C8C1217424722867604064C1 /* ButtonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE7BD06FC1994B46AE5E3F1 /* ButtonKit.framework */; };
+		C912588058F6F839AD44D981 /* Conversations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BBD45F46FDED25896748F9 /* Conversations.framework */; };
 		C96EB5ED4552916DCA016255 /* PushNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165478682C30B45973DDCB2 /* PushNotificationsView.swift */; };
-		CEEBD0343AE09D8DD2F870F7 /* Bodega.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B17F716C9A25F8072EBA79D /* Bodega.xcframework */; };
-		D4FCD5B2E22D09A5E4258B07 /* MediaUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F383EE3681A89B1607A6F43 /* MediaUI.xcframework */; };
+		CF6AB9DB14F27E71056D9ACA /* Markdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F016A8CA05091FB7C8E0144 /* Markdown.framework */; };
+		CFE4447228FBC02642B96378 /* Notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FFBC4DB5D640CED249E9F9 /* Notifications.framework */; };
 		D5E32A642050FB7F0189C6FB /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFAEF9F313C2CF0559B07B /* SettingsTab.swift */; };
-		D665AC22FD1A37C9BD679A57 /* LRUCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31B8B13A47D7296FF7DFA1A /* LRUCache.xcframework */; };
+		D8E3CDC39B4959BD0984F7AC /* LRUCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B7A284E3C5DD4F7EAC7082 /* LRUCache.framework */; };
 		D8F34CB31D64382521B0C7F7 /* HapticSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6F8169E8802E9F14EFCC6 /* HapticSettingsView.swift */; };
-		DA5D7702C8929D97F8C59462 /* Notifications.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1476C0EA30D913F606EC4ED6 /* Notifications.xcframework */; };
 		DAFDD5929C7A0A2DEFEF8571 /* TagsGroupSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC5AAC333E5F68E8513595 /* TagsGroupSettingView.swift */; };
-		DBF212F89DF10BE0F27AA7D3 /* SFSafeSymbols.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9218D6CFC9C476987F0E5A /* SFSafeSymbols.xcframework */; };
-		DD71F125BC934F71C2D7C8F6 /* Env.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8814F178FE9A88D7E0646608 /* Env.xcframework */; };
+		DDC44612B3650E4E1C6F430E /* CAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324A266635538728A3099AB4 /* CAtomic.framework */; };
+		E38C2A8EE703709373E9BBC6 /* EmojiText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9683D1591B531EA7883A19ED /* EmojiText.framework */; };
 		E772A0518B0AA59335DC3AB9 /* SupportAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D4A1D6A65A5A4576813A7 /* SupportAppView.swift */; };
 		E7BF69691800FECD1715BB81 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A1F0D02AF5F4D723E49AE /* SideBarView.swift */; };
 		E803177D8E7E585E042DDE63 /* TabbarEntriesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7C76F1A2FD6727275F7A3 /* TabbarEntriesSettingsView.swift */; };
-		EA42E5F751B535894FEA572C /* Network.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21AD3FEAAF17832C561B275 /* Network.xcframework */; };
+		EAD5627A251864ACB3D19E5B /* RevenueCat_RevenueCat.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = AD1AA889DBFDC81D32FDC7F2 /* RevenueCat_RevenueCat.bundle */; };
+		EF468144CC502743E2900D28 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF8956FA21A95849B5775F /* DesignSystem_DesignSystem.bundle */; };
 		F1550DC03C89E54D12DF8AE4 /* AccountSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3E86854A52F84D2ABA50E /* AccountSettingView.swift */; };
-		F7CF644C9AFBA0E3835A108A /* Timeline.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EB7C7F101119E0A70005AE /* Timeline.xcframework */; };
-		FB9070C904E2EAF3CB8F23EA /* NukeUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406565233FEF212AB21C3192 /* NukeUI.xcframework */; };
-		FEF7536E1531BDC320827C82 /* SwiftUIIntrospect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598EE762C9C45F2BCA6010E5 /* SwiftUIIntrospect.xcframework */; };
-		FF3A0F7E06CF3965522ADB97 /* Models.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C519C13A73982BB88FA7CB /* Models.xcframework */; };
+		F2645EDFC36FF4CEEB500086 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25D4CF374B7040B6A084B1B /* DesignSystem.framework */; };
+		FB44A780EBE8D0EED573959E /* StatusKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A268E0CF08123CBCE1303A9 /* StatusKit.framework */; };
 		FF730A94DBF774315578D8CE /* favorite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5602922659F3FDB616ED92C8 /* favorite.wav */; };
 /* End PBXBuildFile section */
 
@@ -106,94 +109,106 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5110644DBB4DB28FE448C26 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				8D1828BDAB4F64D75BD59C26 /* DesignSystem_DesignSystem.bundle in Dependencies */,
+				EAD5627A251864ACB3D19E5B /* RevenueCat_RevenueCat.bundle in Dependencies */,
+				1758F75BAF72023B98E10A56 /* SwiftSoup_SwiftSoup.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		045A5984B07CBE06DBD7C28A /* Lists.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Lists.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/703f73f234b035d6a63d8ba037263d8f/Lists.xcframework"; sourceTree = "<absolute>"; };
 		0ED7C76F1A2FD6727275F7A3 /* TabbarEntriesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarEntriesSettingsView.swift; sourceTree = "<group>"; };
+		0F5B0E870EB9C8C4135A1C98 /* cmark_gfm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark_gfm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC1A228B42C1A4FBF53F6BA /* ToolbarTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarTab.swift; sourceTree = "<group>"; };
 		1165478682C30B45973DDCB2 /* PushNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsView.swift; sourceTree = "<group>"; };
-		1187D1CB5E27FD997DA1301A /* KeychainSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KeychainSwift.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/f75dddafaedcbc682e2efd62bc66adbe/KeychainSwift.xcframework"; sourceTree = "<absolute>"; };
-		12733131907218964A260F55 /* Nuke.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Nuke.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/00c31d44bbee5b7dcaaa6edfd0500d3a/Nuke.xcframework"; sourceTree = "<absolute>"; };
-		1476C0EA30D913F606EC4ED6 /* Notifications.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Notifications.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/3641ba866b5b77f4dba2bb8d1d0d02cf/Notifications.xcframework"; sourceTree = "<absolute>"; };
+		13B0AE1980B35A95F2A10FB9 /* MediaUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediaUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1476FBD48666C63DFF9B07F8 /* SwipeActionsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsSettingsView.swift; sourceTree = "<group>"; };
-		18F011A3924407E4BE1D0007 /* ButtonKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ButtonKit.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/fe404957bdcd59e2cc39ba12f0675fbc/ButtonKit.xcframework"; sourceTree = "<absolute>"; };
-		1F383EE3681A89B1607A6F43 /* MediaUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MediaUI.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/8df9ab1f3e995c6016ed5a5cb85c63ed/MediaUI.xcframework"; sourceTree = "<absolute>"; };
-		1FFD2C16AD7AE4223E470C3E /* Markdown.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Markdown.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/ea40a19c4e2e978e54aa6daef4835d2b/Markdown.xcframework"; sourceTree = "<absolute>"; };
 		21D3E86854A52F84D2ABA50E /* AccountSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingView.swift; sourceTree = "<group>"; };
-		2233EC1E5A2110D984E5C568 /* StatusKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StatusKit.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/67db90f4455383e6a08583e3271897b2/StatusKit.xcframework"; sourceTree = "<absolute>"; };
 		246A9BD6F18E0D7BAC42C0A2 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
 		25C39663E800677BDE8C8A80 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
-		29E9D5D1343A83F34A5166CA /* cmark-gfm-extensions.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "cmark-gfm-extensions.xcframework"; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/759a888fda60cf586f6cb16dc8fca9c4/cmark-gfm-extensions.xcframework"; sourceTree = "<absolute>"; };
+		27FFBC4DB5D640CED249E9F9 /* Notifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Notifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3122A675DC295F448613DF41 /* RevenueCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevenueCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319B5355A7B3703FF80BCCBF /* AppRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRegistry.swift; sourceTree = "<group>"; };
+		324A266635538728A3099AB4 /* CAtomic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAtomic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BBD74590FC341653DF3BBB /* IceCubesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCubesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E6C344536002E85CD20D62 /* Timeline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timeline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3629F25C6C48CE1BE050E9D6 /* TuistBundle+IceCubesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+IceCubesApp.swift"; sourceTree = "<group>"; };
-		362DC8EBFE40FA9982C50874 /* SwiftSoup_SwiftSoup.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; name = SwiftSoup_SwiftSoup.bundle; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/d71290e0d68780e05d9ee7915a86bf1c/SwiftSoup_SwiftSoup.bundle"; sourceTree = "<absolute>"; };
 		37CDC45A9E8800C5FB33B0C8 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
-		406565233FEF212AB21C3192 /* NukeUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NukeUI.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/8fef075c9291ead064d6a03696d078f3/NukeUI.xcframework"; sourceTree = "<absolute>"; };
-		45DF2794D0218F53EA2D5E4D /* Conversations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Conversations.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/dd78122c78bf44df13c05aecc67b04d4/Conversations.xcframework"; sourceTree = "<absolute>"; };
+		45E59AD5B39CA121A2F836E7 /* Explore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Explore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		486704CB61D5B7F173796986 /* glass.caf */ = {isa = PBXFileReference; path = glass.caf; sourceTree = "<group>"; };
-		49537590BF365A419A10F138 /* AppAccount.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppAccount.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/64679b2dfb8aa2f97ca78c9288dec834/AppAccount.xcframework"; sourceTree = "<absolute>"; };
 		4A23BAA6E3AD97150F360169 /* IceCubesApp+Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IceCubesApp+Menu.swift"; sourceTree = "<group>"; };
-		4AA2EBAD850DA2A7475F3058 /* CAtomic.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CAtomic.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/fda5284462b2012bfaf3578894272384/CAtomic.xcframework"; sourceTree = "<absolute>"; };
 		4C5A1F0D02AF5F4D723E49AE /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
-		51C519C13A73982BB88FA7CB /* Models.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Models.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/ca6c1fa9adfd684f3d1f5ec7cd148958/Models.xcframework"; sourceTree = "<absolute>"; };
 		5602922659F3FDB616ED92C8 /* favorite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = favorite.wav; sourceTree = "<group>"; };
 		564E804BD1AA5CA73F3320A8 /* SidebarEntriesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarEntriesSettingsView.swift; sourceTree = "<group>"; };
-		575803C8D19AF3B86BD2EDB5 /* Explore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Explore.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/fed7d620073f4b77a0c6a09b866349e4/Explore.xcframework"; sourceTree = "<absolute>"; };
-		598EE762C9C45F2BCA6010E5 /* SwiftUIIntrospect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftUIIntrospect.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/d3fb125be11d40868376b791daec9908/SwiftUIIntrospect.xcframework"; sourceTree = "<absolute>"; };
+		5AB1FA389BECEEF2B8F5AC26 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA030CDEA1E250BE2A269EC /* Lists.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lists.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDF15D836BAC4EBE7B96C07 /* refresh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = refresh.wav; sourceTree = "<group>"; };
 		5FE7402E962CBE163CB9BF87 /* Atkinson-Hyperlegible-Regular-102.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Atkinson-Hyperlegible-Regular-102.ttf"; sourceTree = "<group>"; };
-		646DDAAF16F28968ED1B4786 /* DesignSystem.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DesignSystem.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/4dffd7c7de6d04bef1f733c520579fa1/DesignSystem.xcframework"; sourceTree = "<absolute>"; };
 		6470EEFF3662788B692883D3 /* bookmark.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bookmark.wav; sourceTree = "<group>"; };
-		6A6646E0EE1FC52348DC038E /* RevenueCat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RevenueCat.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/cd418fe078596d9dbbf126602ff01e03/RevenueCat.xcframework"; sourceTree = "<absolute>"; };
+		66AD8CF16365C23CA7E145CE /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A660FBE6496A07950752C4 /* Bodega.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bodega.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCF8956FA21A95849B5775F /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBD3E8B60FE2ECC5ACB480B /* IconSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelectorView.swift; sourceTree = "<group>"; };
-		6ECC8DEB2E8D1586DE654E50 /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; name = DesignSystem_DesignSystem.bundle; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/132e47a202e2b14b033416d80065c5c7/DesignSystem_DesignSystem.bundle"; sourceTree = "<absolute>"; };
 		7028FA985E04A62E86A872BC /* boost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boost.wav; sourceTree = "<group>"; };
 		72FDB1492A5DD4253C410B3D /* NotificationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTab.swift; sourceTree = "<group>"; };
 		733A9FB6F3A10FA6D2B725A5 /* pull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pull.wav; sourceTree = "<group>"; };
 		78414979EB27CEEE71F8B9AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		79546D67E8CFB23D8C1988DB /* RevenueCat_RevenueCat.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; name = RevenueCat_RevenueCat.bundle; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/e34e7ffcae7b2c970a0cc5f8b1a9103c/RevenueCat_RevenueCat.bundle"; sourceTree = "<absolute>"; };
 		7C74F6D3B4F8E13077614EF2 /* IceCubesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCubesApp.swift; sourceTree = "<group>"; };
-		8006A75EE871CFF785271877 /* EmojiText.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EmojiText.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/f15bd2b7214e685140596e8d2a832b77/EmojiText.xcframework"; sourceTree = "<absolute>"; };
 		82E99D7E6B15EA5C6B364580 /* TuistAssets+IceCubesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+IceCubesApp.swift"; sourceTree = "<group>"; };
+		84A7AAFA84571A95EEC43710 /* NukeUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA90130D2855FF3FA8A0C3 /* AddAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountsView.swift; sourceTree = "<group>"; };
 		8751955833413D138FA91E90 /* RecenTagsSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecenTagsSettingView.swift; sourceTree = "<group>"; };
 		88098E27B029C6E37BDD6295 /* IceCubesApp+Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IceCubesApp+Scene.swift"; sourceTree = "<group>"; };
-		8814F178FE9A88D7E0646608 /* Env.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Env.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/fe5d3dcfceccb52465668f9ff8eb821f/Env.xcframework"; sourceTree = "<absolute>"; };
 		8E0A7B1A89F82AB6E0C16F82 /* NavigationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSheet.swift; sourceTree = "<group>"; };
+		904E3633CEA4E06038E3881B /* cmark_gfm_extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark_gfm_extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		922D039BBB866F73EC709C7A /* Env.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Env.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		931C06FAFC1C060564883066 /* TimelineTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineTab.swift; sourceTree = "<group>"; };
+		947DC6E8CC74F93714A4840F /* SFSafeSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFSafeSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9683D1591B531EA7883A19ED /* EmojiText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmojiText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9881C0932A4136257756CF51 /* share.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = share.wav; sourceTree = "<group>"; };
 		9A0193E128E72446C99215BB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		9A268E0CF08123CBCE1303A9 /* StatusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StatusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A279C605265CB98C7D92739 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5D4A1D6A65A5A4576813A7 /* SupportAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportAppView.swift; sourceTree = "<group>"; };
-		9B17F716C9A25F8072EBA79D /* Bodega.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Bodega.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/cc8b9bc84ba3356a8b1d9f79abbd68d9/Bodega.xcframework"; sourceTree = "<absolute>"; };
+		9F016A8CA05091FB7C8E0144 /* Markdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Markdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04B1A79A318B58A3D421737 /* SwiftUIIntrospect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIIntrospect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05D5434D6524243429DE177 /* tootSent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tootSent.wav; sourceTree = "<group>"; };
 		A108056DBE6E062271F74B2A /* IceCubesApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IceCubesApp-Info.plist"; sourceTree = "<group>"; };
-		A1CCDD1F83B61ED4B190110C /* cmark-gfm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "cmark-gfm.xcframework"; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/6e40e01a8c8d8fbd983d150ea2f29e8d/cmark-gfm.xcframework"; sourceTree = "<absolute>"; };
-		A4EB7C7F101119E0A70005AE /* Timeline.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Timeline.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/e31b610e54623d0e3dc4f2fec2c61236/Timeline.xcframework"; sourceTree = "<absolute>"; };
+		A2B7A284E3C5DD4F7EAC7082 /* LRUCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRUCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BBD45F46FDED25896748F9 /* Conversations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Conversations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EC7BF3C46F192713282869 /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1AA889DBFDC81D32FDC7F2 /* RevenueCat_RevenueCat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevenueCat_RevenueCat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B149CA2567E7F2D67B0F14A2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		B21AD3FEAAF17832C561B275 /* Network.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Network.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/af05cdc90ca3ebdf211cc270a5da7fac/Network.xcframework"; sourceTree = "<absolute>"; };
-		B4E506ED0E5F436415FE06F9 /* Account.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Account.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/bf7a7f3f39dc035c3563fc9010529add/Account.xcframework"; sourceTree = "<absolute>"; };
 		B93C9569DC1A1E5C2A7A89EA /* TranslationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationSettingsView.swift; sourceTree = "<group>"; };
-		BB9218D6CFC9C476987F0E5A /* SFSafeSymbols.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SFSafeSymbols.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/9a940c09ad9b2210b7915eafdafb5c3c/SFSafeSymbols.xcframework"; sourceTree = "<absolute>"; };
 		BBBFAEF9F313C2CF0559B07B /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
-		BED6D3B43621DF65147C586A /* SwiftSoup.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftSoup.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/b1907816b431d13303698746feced236/SwiftSoup.xcframework"; sourceTree = "<absolute>"; };
-		BFCDEC65FBA6DB7AA9A7E831 /* SQLite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SQLite.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/b796ba95d94cae848b7ead210cf8335c/SQLite.xcframework"; sourceTree = "<absolute>"; };
 		C04AC5F5D01ED96098AE576C /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
-		C31B8B13A47D7296FF7DFA1A /* LRUCache.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LRUCache.xcframework; path = "/Users/marekfort/.cache/tuist-cloud/BinaryCache/695cf44f42e234daefbffc2761f44b07/LRUCache.xcframework"; sourceTree = "<absolute>"; };
+		C28AF0EA77E4A64A37E757F3 /* Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C851D8913F7925D7DC092E1F /* ExploreTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTab.swift; sourceTree = "<group>"; };
+		CCE7BD06FC1994B46AE5E3F1 /* ButtonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ButtonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6F8169E8802E9F14EFCC6 /* HapticSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSettingsView.swift; sourceTree = "<group>"; };
 		D2E39C815BFE08A383944015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D917EF94CF8278BAEE195DDA /* AddRemoteTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemoteTimelineView.swift; sourceTree = "<group>"; };
 		D9B5B25AB093A2093D554EFA /* EditTagGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTagGroupView.swift; sourceTree = "<group>"; };
+		DC1D802BA5CADA3C72CE8674 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBC568CEFF6EEA37516BA5C /* InstanceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceInfoView.swift; sourceTree = "<group>"; };
 		E48D30BC2CE852B1A34665F5 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
 		E75F38DE5023B148E1015BB4 /* ContentSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSettingsView.swift; sourceTree = "<group>"; };
 		E9CC5AAC333E5F68E8513595 /* TagsGroupSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsGroupSettingView.swift; sourceTree = "<group>"; };
 		ED63E184E72928E611FC5DB9 /* MessagesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTab.swift; sourceTree = "<group>"; };
+		F25D4CF374B7040B6A084B1B /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89D3E31E6DD5045E1310114 /* AppAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F926F226E1862E13BBB9C461 /* TuistFonts+IceCubesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+IceCubesApp.swift"; sourceTree = "<group>"; };
 		F94EF0BC4EB45D7B5F7D0AA1 /* SafariRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariRouter.swift; sourceTree = "<group>"; };
 		FA7F9636F4395E8F512CED35 /* RemoteTimelinesSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTimelinesSettingView.swift; sourceTree = "<group>"; };
+		FB3745D3CC049102531292D5 /* SwiftSoup_SwiftSoup.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSoup_SwiftSoup.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6133284CEA1CA660DCBF0D /* Account.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Account.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD752A152AA99AF25BF23D3 /* tabSelection.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tabSelection.wav; sourceTree = "<group>"; };
 		FD608FA09D557B2D99D91743 /* DisplaySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySettingsView.swift; sourceTree = "<group>"; };
 		FE94715E97525D19D2CDC901 /* NavigationTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTab.swift; sourceTree = "<group>"; };
@@ -204,35 +219,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CE9AD734091FF227B771AB /* Nuke.xcframework in Frameworks */,
-				DA5D7702C8929D97F8C59462 /* Notifications.xcframework in Frameworks */,
-				107EA88545C9B16838E9E7EB /* DesignSystem.xcframework in Frameworks */,
-				A7FDF5AFCACCE3AF62765858 /* AppAccount.xcframework in Frameworks */,
-				339660B206DF228A85C01583 /* StatusKit.xcframework in Frameworks */,
-				D665AC22FD1A37C9BD679A57 /* LRUCache.xcframework in Frameworks */,
-				B1D1ECF091D2739566D7CBE8 /* cmark-gfm.xcframework in Frameworks */,
-				36B8F56D028971003897F9AA /* Lists.xcframework in Frameworks */,
-				50B5131B8A49AC19E65EB5E3 /* cmark-gfm-extensions.xcframework in Frameworks */,
-				D4FCD5B2E22D09A5E4258B07 /* MediaUI.xcframework in Frameworks */,
-				FB9070C904E2EAF3CB8F23EA /* NukeUI.xcframework in Frameworks */,
-				DBF212F89DF10BE0F27AA7D3 /* SFSafeSymbols.xcframework in Frameworks */,
-				EA42E5F751B535894FEA572C /* Network.xcframework in Frameworks */,
-				2E87E57850C50F271A98D009 /* SwiftSoup.xcframework in Frameworks */,
-				BAE1753CC5D42E4B9E26967D /* SQLite.xcframework in Frameworks */,
-				8A8370E9D571081613825D97 /* Account.xcframework in Frameworks */,
-				FF3A0F7E06CF3965522ADB97 /* Models.xcframework in Frameworks */,
-				CEEBD0343AE09D8DD2F870F7 /* Bodega.xcframework in Frameworks */,
-				5CF73CBD1D426C6A753BA98B /* RevenueCat.xcframework in Frameworks */,
-				FEF7536E1531BDC320827C82 /* SwiftUIIntrospect.xcframework in Frameworks */,
-				087C32D3AFD252535FC82E4F /* Conversations.xcframework in Frameworks */,
-				F7CF644C9AFBA0E3835A108A /* Timeline.xcframework in Frameworks */,
-				B522F8A6F1F27106513D0BE2 /* Markdown.xcframework in Frameworks */,
-				79D97033D36E2AC7EAEAEAB4 /* EmojiText.xcframework in Frameworks */,
-				4092E7C15C7B15D4ADA2FC8D /* KeychainSwift.xcframework in Frameworks */,
-				25D569850C9D01005786BE11 /* CAtomic.xcframework in Frameworks */,
-				49BA367ED62F16566C746344 /* ButtonKit.xcframework in Frameworks */,
-				DD71F125BC934F71C2D7C8F6 /* Env.xcframework in Frameworks */,
-				047E2FC67C0531CFBFA226CE /* Explore.xcframework in Frameworks */,
+				14648306E1D05A90F6A52C0F /* Account.framework in Frameworks */,
+				BC355CD7612F4BB5689DC361 /* AppAccount.framework in Frameworks */,
+				58FF9864B0FBD82778BF7896 /* Bodega.framework in Frameworks */,
+				C8C1217424722867604064C1 /* ButtonKit.framework in Frameworks */,
+				DDC44612B3650E4E1C6F430E /* CAtomic.framework in Frameworks */,
+				C912588058F6F839AD44D981 /* Conversations.framework in Frameworks */,
+				F2645EDFC36FF4CEEB500086 /* DesignSystem.framework in Frameworks */,
+				E38C2A8EE703709373E9BBC6 /* EmojiText.framework in Frameworks */,
+				8670C5F3348A3934C4C494E8 /* Env.framework in Frameworks */,
+				78628AD3B51F75427D17E00D /* Explore.framework in Frameworks */,
+				8EF3C315BABB56C6F442A733 /* KeychainSwift.framework in Frameworks */,
+				D8E3CDC39B4959BD0984F7AC /* LRUCache.framework in Frameworks */,
+				28116A47C6DA363BAE2A29D2 /* Lists.framework in Frameworks */,
+				CF6AB9DB14F27E71056D9ACA /* Markdown.framework in Frameworks */,
+				6A38572BBC3032BF3162115A /* MediaUI.framework in Frameworks */,
+				538177968700746FC6E45586 /* Models.framework in Frameworks */,
+				A87911E3EF2E63FC04E009FB /* Network.framework in Frameworks */,
+				CFE4447228FBC02642B96378 /* Notifications.framework in Frameworks */,
+				5F45E3AA2EAAAD930B309660 /* Nuke.framework in Frameworks */,
+				AD610250DD9249A9C4D6A839 /* NukeUI.framework in Frameworks */,
+				2679C454A983E5249C01A1F5 /* RevenueCat.framework in Frameworks */,
+				75631A3561EED472857E8816 /* SFSafeSymbols.framework in Frameworks */,
+				2AA985A8DBC5F4DF5165E04B /* SQLite.framework in Frameworks */,
+				FB44A780EBE8D0EED573959E /* StatusKit.framework in Frameworks */,
+				57945D2A2AFAA725C28180EF /* SwiftSoup.framework in Frameworks */,
+				9E5C16266E5EB2E611CA7D73 /* SwiftUIIntrospect.framework in Frameworks */,
+				66BB6B2829C824382B8FADCE /* Timeline.framework in Frameworks */,
+				710263F9904805417B7CDA20 /* cmark_gfm.framework in Frameworks */,
+				9A98A9BDBC5A97629F08E358 /* cmark_gfm_extensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +312,6 @@
 			isa = PBXGroup;
 			children = (
 				C95024307AD4145E9EA642A5 /* Project */,
-				893F7095BF624BBACC96A818 /* Frameworks */,
-				AD6B66754D9CEA76FE4CEFBF /* Cache */,
 				DE0E59E7619ABB0279FC56EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -328,13 +341,6 @@
 				37CDC45A9E8800C5FB33B0C8 /* ReportView.swift */,
 			);
 			path = Report;
-			sourceTree = "<group>";
-		};
-		893F7095BF624BBACC96A818 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A086DB6BA1C524FD74DD4A3C /* Settings */ = {
@@ -380,45 +386,6 @@
 			path = Tabs;
 			sourceTree = "<group>";
 		};
-		AD6B66754D9CEA76FE4CEFBF /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				B4E506ED0E5F436415FE06F9 /* Account.xcframework */,
-				49537590BF365A419A10F138 /* AppAccount.xcframework */,
-				9B17F716C9A25F8072EBA79D /* Bodega.xcframework */,
-				18F011A3924407E4BE1D0007 /* ButtonKit.xcframework */,
-				4AA2EBAD850DA2A7475F3058 /* CAtomic.xcframework */,
-				29E9D5D1343A83F34A5166CA /* cmark-gfm-extensions.xcframework */,
-				A1CCDD1F83B61ED4B190110C /* cmark-gfm.xcframework */,
-				45DF2794D0218F53EA2D5E4D /* Conversations.xcframework */,
-				6ECC8DEB2E8D1586DE654E50 /* DesignSystem_DesignSystem.bundle */,
-				646DDAAF16F28968ED1B4786 /* DesignSystem.xcframework */,
-				8006A75EE871CFF785271877 /* EmojiText.xcframework */,
-				8814F178FE9A88D7E0646608 /* Env.xcframework */,
-				575803C8D19AF3B86BD2EDB5 /* Explore.xcframework */,
-				1187D1CB5E27FD997DA1301A /* KeychainSwift.xcframework */,
-				045A5984B07CBE06DBD7C28A /* Lists.xcframework */,
-				C31B8B13A47D7296FF7DFA1A /* LRUCache.xcframework */,
-				1FFD2C16AD7AE4223E470C3E /* Markdown.xcframework */,
-				1F383EE3681A89B1607A6F43 /* MediaUI.xcframework */,
-				51C519C13A73982BB88FA7CB /* Models.xcframework */,
-				B21AD3FEAAF17832C561B275 /* Network.xcframework */,
-				1476C0EA30D913F606EC4ED6 /* Notifications.xcframework */,
-				12733131907218964A260F55 /* Nuke.xcframework */,
-				406565233FEF212AB21C3192 /* NukeUI.xcframework */,
-				79546D67E8CFB23D8C1988DB /* RevenueCat_RevenueCat.bundle */,
-				6A6646E0EE1FC52348DC038E /* RevenueCat.xcframework */,
-				BB9218D6CFC9C476987F0E5A /* SFSafeSymbols.xcframework */,
-				BFCDEC65FBA6DB7AA9A7E831 /* SQLite.xcframework */,
-				2233EC1E5A2110D984E5C568 /* StatusKit.xcframework */,
-				362DC8EBFE40FA9982C50874 /* SwiftSoup_SwiftSoup.bundle */,
-				BED6D3B43621DF65147C586A /* SwiftSoup.xcframework */,
-				598EE762C9C45F2BCA6010E5 /* SwiftUIIntrospect.xcframework */,
-				A4EB7C7F101119E0A70005AE /* Timeline.xcframework */,
-			);
-			name = Cache;
-			sourceTree = "<group>";
-		};
 		B1A7944E4CDA6BC0C48D971A /* Derived */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,7 +420,39 @@
 		DE0E59E7619ABB0279FC56EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				FC6133284CEA1CA660DCBF0D /* Account.framework */,
+				F89D3E31E6DD5045E1310114 /* AppAccount.framework */,
+				67A660FBE6496A07950752C4 /* Bodega.framework */,
+				CCE7BD06FC1994B46AE5E3F1 /* ButtonKit.framework */,
+				324A266635538728A3099AB4 /* CAtomic.framework */,
+				904E3633CEA4E06038E3881B /* cmark_gfm_extensions.framework */,
+				0F5B0E870EB9C8C4135A1C98 /* cmark_gfm.framework */,
+				A8BBD45F46FDED25896748F9 /* Conversations.framework */,
+				6CCF8956FA21A95849B5775F /* DesignSystem_DesignSystem.bundle */,
+				F25D4CF374B7040B6A084B1B /* DesignSystem.framework */,
+				9683D1591B531EA7883A19ED /* EmojiText.framework */,
+				922D039BBB866F73EC709C7A /* Env.framework */,
+				45E59AD5B39CA121A2F836E7 /* Explore.framework */,
 				33BBD74590FC341653DF3BBB /* IceCubesApp.app */,
+				DC1D802BA5CADA3C72CE8674 /* KeychainSwift.framework */,
+				5CA030CDEA1E250BE2A269EC /* Lists.framework */,
+				A2B7A284E3C5DD4F7EAC7082 /* LRUCache.framework */,
+				9F016A8CA05091FB7C8E0144 /* Markdown.framework */,
+				13B0AE1980B35A95F2A10FB9 /* MediaUI.framework */,
+				C28AF0EA77E4A64A37E757F3 /* Models.framework */,
+				5AB1FA389BECEEF2B8F5AC26 /* Network.framework */,
+				27FFBC4DB5D640CED249E9F9 /* Notifications.framework */,
+				66AD8CF16365C23CA7E145CE /* Nuke.framework */,
+				84A7AAFA84571A95EEC43710 /* NukeUI.framework */,
+				AD1AA889DBFDC81D32FDC7F2 /* RevenueCat_RevenueCat.bundle */,
+				3122A675DC295F448613DF41 /* RevenueCat.framework */,
+				947DC6E8CC74F93714A4840F /* SFSafeSymbols.framework */,
+				9A279C605265CB98C7D92739 /* SQLite.framework */,
+				9A268E0CF08123CBCE1303A9 /* StatusKit.framework */,
+				FB3745D3CC049102531292D5 /* SwiftSoup_SwiftSoup.bundle */,
+				A8EC7BF3C46F192713282869 /* SwiftSoup.framework */,
+				A04B1A79A318B58A3D421737 /* SwiftUIIntrospect.framework */,
+				35E6C344536002E85CD20D62 /* Timeline.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -480,12 +479,15 @@
 				133F635C4755B2668DFB680C /* Resources */,
 				235EA327880E43CE55508878 /* Embed Frameworks */,
 				8758C89D1EF4A4EC4CCEEE50 /* Frameworks */,
+				C5110644DBB4DB28FE448C26 /* Dependencies */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = IceCubesApp;
+			packageProductDependencies = (
+			);
 			productName = IceCubesApp;
 			productReference = 33BBD74590FC341653DF3BBB /* IceCubesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -537,9 +539,9 @@
 				C590AF08E416AD926FAF1BD7 /* tabSelection.wav in Resources */,
 				BCD47A0110CF9A8CA0E9AA39 /* tootSent.wav in Resources */,
 				346E9BB83778A6AA982B6B4B /* Preview Assets.xcassets in Resources */,
-				4E2E170F28726260F24ACE69 /* DesignSystem_DesignSystem.bundle in Resources */,
-				A713BA57209F73F70D8EA4D6 /* SwiftSoup_SwiftSoup.bundle in Resources */,
-				95A6B74E2BE73CA235D6C5E6 /* RevenueCat_RevenueCat.bundle in Resources */,
+				EF468144CC502743E2900D28 /* DesignSystem_DesignSystem.bundle in Resources */,
+				0ED9D4699C4B83AF69002A3F /* RevenueCat_RevenueCat.bundle in Resources */,
+				2944CE1E975C03356E2BBF45 /* SwiftSoup_SwiftSoup.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,44 +663,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/00c31d44bbee5b7dcaaa6edfd0500d3a",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/3641ba866b5b77f4dba2bb8d1d0d02cf",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/4dffd7c7de6d04bef1f733c520579fa1",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/64679b2dfb8aa2f97ca78c9288dec834",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/67db90f4455383e6a08583e3271897b2",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/695cf44f42e234daefbffc2761f44b07",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/6e40e01a8c8d8fbd983d150ea2f29e8d",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/703f73f234b035d6a63d8ba037263d8f",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/759a888fda60cf586f6cb16dc8fca9c4",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/8df9ab1f3e995c6016ed5a5cb85c63ed",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/8fef075c9291ead064d6a03696d078f3",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/9a940c09ad9b2210b7915eafdafb5c3c",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/af05cdc90ca3ebdf211cc270a5da7fac",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/b1907816b431d13303698746feced236",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/b796ba95d94cae848b7ead210cf8335c",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/bf7a7f3f39dc035c3563fc9010529add",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/ca6c1fa9adfd684f3d1f5ec7cd148958",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/cc8b9bc84ba3356a8b1d9f79abbd68d9",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/cd418fe078596d9dbbf126602ff01e03",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/d3fb125be11d40868376b791daec9908",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/dd78122c78bf44df13c05aecc67b04d4",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/e31b610e54623d0e3dc4f2fec2c61236",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/ea40a19c4e2e978e54aa6daef4835d2b",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/f15bd2b7214e685140596e8d2a832b77",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/f75dddafaedcbc682e2efd62bc66adbe",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fda5284462b2012bfaf3578894272384",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fe404957bdcd59e2cc39ba12f0675fbc",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fe5d3dcfceccb52465668f9ff8eb821f",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fed7d620073f4b77a0c6a09b866349e4",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/extensions/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/src/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
+					"$(SRCROOT)/Tuist/.build/checkouts/swift-cmark/extensions/include",
+					"$(SRCROOT)/Tuist/.build/checkouts/swift-cmark/src/include",
+					"$(SRCROOT)/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/IceCubesApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -709,11 +679,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/checkouts/swift-cmark/src/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
+					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
@@ -722,7 +688,7 @@
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.IceCubesApp;
 				PRODUCT_NAME = IceCubesApp;
@@ -743,44 +709,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/00c31d44bbee5b7dcaaa6edfd0500d3a",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/3641ba866b5b77f4dba2bb8d1d0d02cf",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/4dffd7c7de6d04bef1f733c520579fa1",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/64679b2dfb8aa2f97ca78c9288dec834",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/67db90f4455383e6a08583e3271897b2",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/695cf44f42e234daefbffc2761f44b07",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/6e40e01a8c8d8fbd983d150ea2f29e8d",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/703f73f234b035d6a63d8ba037263d8f",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/759a888fda60cf586f6cb16dc8fca9c4",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/8df9ab1f3e995c6016ed5a5cb85c63ed",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/8fef075c9291ead064d6a03696d078f3",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/9a940c09ad9b2210b7915eafdafb5c3c",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/af05cdc90ca3ebdf211cc270a5da7fac",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/b1907816b431d13303698746feced236",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/b796ba95d94cae848b7ead210cf8335c",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/bf7a7f3f39dc035c3563fc9010529add",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/ca6c1fa9adfd684f3d1f5ec7cd148958",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/cc8b9bc84ba3356a8b1d9f79abbd68d9",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/cd418fe078596d9dbbf126602ff01e03",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/d3fb125be11d40868376b791daec9908",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/dd78122c78bf44df13c05aecc67b04d4",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/e31b610e54623d0e3dc4f2fec2c61236",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/ea40a19c4e2e978e54aa6daef4835d2b",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/f15bd2b7214e685140596e8d2a832b77",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/f75dddafaedcbc682e2efd62bc66adbe",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fda5284462b2012bfaf3578894272384",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fe404957bdcd59e2cc39ba12f0675fbc",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fe5d3dcfceccb52465668f9ff8eb821f",
-					"$(SRCROOT)/../../../../../.cache/tuist-cloud/BinaryCache/fed7d620073f4b77a0c6a09b866349e4",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/extensions/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/src/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
+					"$(SRCROOT)/Tuist/.build/checkouts/swift-cmark/extensions/include",
+					"$(SRCROOT)/Tuist/.build/checkouts/swift-cmark/src/include",
+					"$(SRCROOT)/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/IceCubesApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -791,11 +725,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/checkouts/swift-cmark/src/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
+					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
@@ -804,7 +734,7 @@
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.IceCubesApp;
 				PRODUCT_NAME = IceCubesApp;

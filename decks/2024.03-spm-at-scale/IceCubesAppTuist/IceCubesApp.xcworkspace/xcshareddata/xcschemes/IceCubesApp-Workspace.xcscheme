@@ -14,10 +14,458 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8DFC527207000009B72E5FCF"
+               BuildableName = "Account.framework"
+               BlueprintName = "Account"
+               ReferencedContainer = "container:Packages/Account/Account.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7BB70153AA29B3CEBEE02F9D"
+               BuildableName = "AppAccount.framework"
+               BlueprintName = "AppAccount"
+               ReferencedContainer = "container:Packages/AppAccount/AppAccount.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0CA9F68BE90BCAF14CDCCE37"
+               BuildableName = "Bodega.framework"
+               BlueprintName = "Bodega"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Bodega/Bodega.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "413EFD7B98992F6C504BC70A"
+               BuildableName = "ButtonKit.framework"
+               BlueprintName = "ButtonKit"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/ButtonKit/ButtonKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1EB6680A27611D7AA6FE58DB"
+               BuildableName = "CAtomic.framework"
+               BlueprintName = "CAtomic"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-markdown/swift-markdown.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E5EC817BB508725C65A0567D"
+               BuildableName = "Conversations.framework"
+               BlueprintName = "Conversations"
+               ReferencedContainer = "container:Packages/Conversations/Conversations.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83C9B5D1938C22907FF6E247"
+               BuildableName = "DesignSystem.framework"
+               BlueprintName = "DesignSystem"
+               ReferencedContainer = "container:Packages/DesignSystem/DesignSystem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C777EA7684CF3B97BE76C38C"
+               BuildableName = "DesignSystem_DesignSystem.bundle"
+               BlueprintName = "DesignSystem_DesignSystem"
+               ReferencedContainer = "container:Packages/DesignSystem/DesignSystem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "78DA19476AD664B8FC92714F"
+               BuildableName = "EmojiText.framework"
+               BlueprintName = "EmojiText"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/EmojiText/EmojiText.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E1637865C1E48CFAB75DEA8"
+               BuildableName = "Env.framework"
+               BlueprintName = "Env"
+               ReferencedContainer = "container:Packages/Env/Env.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9943AD2B429C898B2E18E15D"
+               BuildableName = "Explore.framework"
+               BlueprintName = "Explore"
+               ReferencedContainer = "container:Packages/Explore/Explore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "02D52559A97F1BD0968528E2"
                BuildableName = "IceCubesApp.app"
                BlueprintName = "IceCubesApp"
                ReferencedContainer = "container:IceCubesApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "14688E1D80A7116114946FA7"
+               BuildableName = "KeychainSwift.framework"
+               BlueprintName = "KeychainSwift"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/KeychainSwift/KeychainSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7983C26DED4E367F41385E24"
+               BuildableName = "LRUCache.framework"
+               BlueprintName = "LRUCache"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/LRUCache/LRUCache.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "863096FEDCADF705F073DB76"
+               BuildableName = "Lists.framework"
+               BlueprintName = "Lists"
+               ReferencedContainer = "container:Packages/Lists/Lists.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "718F8FE29C7CABC033D333F5"
+               BuildableName = "Markdown.framework"
+               BlueprintName = "Markdown"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-markdown/swift-markdown.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5019C0C4AEEC621D498B465E"
+               BuildableName = "MediaUI.framework"
+               BlueprintName = "MediaUI"
+               ReferencedContainer = "container:Packages/MediaUI/MediaUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D906600AE083D01EE355940A"
+               BuildableName = "Models.framework"
+               BlueprintName = "Models"
+               ReferencedContainer = "container:Packages/Models/Models.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1AEBE67F28FC7607B2C411E"
+               BuildableName = "Network.framework"
+               BlueprintName = "Network"
+               ReferencedContainer = "container:Packages/Network/Network.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1829FF62CD6E5321DD949A33"
+               BuildableName = "Notifications.framework"
+               BlueprintName = "Notifications"
+               ReferencedContainer = "container:Packages/Notifications/Notifications.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C9E0BC78A0E529700E4AF196"
+               BuildableName = "Nuke.framework"
+               BlueprintName = "Nuke"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Nuke/Nuke.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8A0A0E9D5BA015F142C1008"
+               BuildableName = "NukeUI.framework"
+               BlueprintName = "NukeUI"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/Nuke/Nuke.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "21ACE72DE79281C9B6CD27E0"
+               BuildableName = "RevenueCat.framework"
+               BlueprintName = "RevenueCat"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/RevenueCat/RevenueCat.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20D11414D967CB74A4137604"
+               BuildableName = "RevenueCat_RevenueCat.bundle"
+               BlueprintName = "RevenueCat_RevenueCat"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/RevenueCat/RevenueCat.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "791D9FF2389B440F5A561D16"
+               BuildableName = "SFSafeSymbols.framework"
+               BlueprintName = "SFSafeSymbols"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/SFSafeSymbols/SFSafeSymbols.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E98E6772BC4312137A7E9A7"
+               BuildableName = "SQLite.framework"
+               BlueprintName = "SQLite"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/SQLite.swift/SQLite.swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "80BAAEB603D358CA52630526"
+               BuildableName = "StatusKit.framework"
+               BlueprintName = "StatusKit"
+               ReferencedContainer = "container:Packages/StatusKit/StatusKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F4851416F94D82A4E0A5A346"
+               BuildableName = "SwiftSoup.framework"
+               BlueprintName = "SwiftSoup"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/SwiftSoup/SwiftSoup.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "46FA0815A3066854553DA4B1"
+               BuildableName = "SwiftSoup_SwiftSoup.bundle"
+               BlueprintName = "SwiftSoup_SwiftSoup"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/SwiftSoup/SwiftSoup.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C0B66C9F607B0D0E419B8581"
+               BuildableName = "SwiftUIIntrospect.framework"
+               BlueprintName = "SwiftUIIntrospect"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/swiftui-introspect/swiftui-introspect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE6469304449F68A8E8DB5C7"
+               BuildableName = "Timeline.framework"
+               BlueprintName = "Timeline"
+               ReferencedContainer = "container:Packages/Timeline/Timeline.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "614CE18CEE4C821A1781AB8E"
+               BuildableName = "cmark_gfm.framework"
+               BlueprintName = "cmark-gfm"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/cmark-gfm/cmark-gfm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A59298AE6AFD06C6C57744D"
+               BuildableName = "cmark_gfm_extensions.framework"
+               BlueprintName = "cmark-gfm-extensions"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/cmark-gfm/cmark-gfm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,16 +488,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02D52559A97F1BD0968528E2"
-            BuildableName = "IceCubesApp.app"
-            BlueprintName = "IceCubesApp"
-            ReferencedContainer = "container:IceCubesApp.xcodeproj">
+            BlueprintIdentifier = "8DFC527207000009B72E5FCF"
+            BuildableName = "Account.framework"
+            BlueprintName = "Account"
+            ReferencedContainer = "container:Packages/Account/Account.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +504,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "02D52559A97F1BD0968528E2"
-            BuildableName = "IceCubesApp.app"
-            BlueprintName = "IceCubesApp"
-            ReferencedContainer = "container:IceCubesApp.xcodeproj">
+            BlueprintIdentifier = "8DFC527207000009B72E5FCF"
+            BuildableName = "Account.framework"
+            BlueprintName = "Account"
+            ReferencedContainer = "container:Packages/Account/Account.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

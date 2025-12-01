@@ -94,19 +94,10 @@
 			path = Derived;
 			sourceTree = "<group>";
 		};
-		5694E49C66E30FC37AD039E8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		67B26B679A5A4FB0C4D90EA6 = {
 			isa = PBXGroup;
 			children = (
 				186A51A855B6FFA2A3D5B6C4 /* Project */,
-				5694E49C66E30FC37AD039E8 /* Frameworks */,
-				7BB14FBD8A75474651F2AA6C /* Cache */,
 				B1DC3E852B66AA6F40CE9BDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,13 +115,6 @@
 				54B7B8DB878EE08E69F2C32E /* ShareToolbarItem.swift */,
 			);
 			path = MediaUI;
-			sourceTree = "<group>";
-		};
-		7BB14FBD8A75474651F2AA6C /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Cache;
 			sourceTree = "<group>";
 		};
 		B1DC3E852B66AA6F40CE9BDD /* Products */ = {
@@ -169,6 +153,8 @@
 			dependencies = (
 			);
 			name = MediaUI;
+			packageProductDependencies = (
+			);
 			productName = MediaUI;
 			productReference = 62BD2BA69620D6467A519798 /* MediaUI.framework */;
 			productType = "com.apple.product-type.framework";
@@ -258,9 +244,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/extensions/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/src/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/extensions/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/src/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/MediaUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -275,21 +261,20 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/src/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-enable-experimental-feature StrictConcurrency",
+					"-package-name",
+					MediaUI,
+					"$(inherited)",
+					"-enable-experimental-feature \"StrictConcurrency\"",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/src/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MediaUI;
 				PRODUCT_NAME = MediaUI;
@@ -337,9 +322,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(inherited)",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/extensions/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-cmark/src/include",
-					"/Users/marekfort/Developer/decks/decks/03.25-spm-at-scale/IceCubesAppTuist/Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/extensions/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/src/include",
+					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-markdown/Sources/CAtomic/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/MediaUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -354,21 +339,20 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/src/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-enable-experimental-feature StrictConcurrency",
+					"-package-name",
+					MediaUI,
+					"$(inherited)",
+					"-enable-experimental-feature \"StrictConcurrency\"",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-cmark/src/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/CAtomic/CAtomic.modulemap",
 					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark-gfm-extensions/cmark-gfm-extensions.modulemap",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/tuist-derived/cmark_gfm_extensions/cmark_gfm_extensions.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MediaUI;
 				PRODUCT_NAME = MediaUI;

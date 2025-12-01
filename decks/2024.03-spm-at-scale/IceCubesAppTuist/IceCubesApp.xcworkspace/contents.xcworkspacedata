@@ -4,4 +4,90 @@
    <FileRef
       location = "group:IceCubesApp.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:Packages"
+      name = "Packages">
+      <FileRef
+         location = "group:Account/Account.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:AppAccount/AppAccount.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Conversations/Conversations.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DesignSystem/DesignSystem.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Env/Env.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Explore/Explore.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Lists/Lists.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:MediaUI/MediaUI.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Models/Models.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Network/Network.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Notifications/Notifications.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StatusKit/StatusKit.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Timeline/Timeline.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Dependencies">
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/Bodega/Bodega.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/ButtonKit/ButtonKit.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/EmojiText/EmojiText.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/KeychainSwift/KeychainSwift.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/LRUCache/LRUCache.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/Nuke/Nuke.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/RevenueCat/RevenueCat.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/SFSafeSymbols/SFSafeSymbols.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/SQLite.swift/SQLite.swift.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/SwiftSoup/SwiftSoup.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/cmark-gfm/cmark-gfm.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/swift-markdown/swift-markdown.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/swiftui-introspect/swiftui-introspect.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

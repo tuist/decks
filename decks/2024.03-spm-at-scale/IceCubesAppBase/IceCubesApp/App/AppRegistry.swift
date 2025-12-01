@@ -11,6 +11,7 @@ import Models
 import StatusKit
 import SwiftUI
 import Timeline
+import Nuke
 
 @MainActor
 extension View {

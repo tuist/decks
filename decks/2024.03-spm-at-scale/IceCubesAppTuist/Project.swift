@@ -35,6 +35,10 @@ let project = Project(
                 .external(name: "Timeline"),
                 .external(name: "RevenueCat"),
                 .external(name: "SFSafeSymbols"),
+                .external(name: "KeychainSwift"),
+                .external(name: "Nuke"),
+                .external(name: "SwiftUIIntrospect"),
+                .external(name: "NukeUI"),
             ]
         ),
     ]

@@ -21,7 +21,7 @@ layout: cover
 <br/>
 
 - Pedro Piñera
-- Berlin-based 
+- Berlin-based
 - Open Source and developer tooling passionate
 - Creator of Tuist and co-founder and CEO of Tuist GmbH
 

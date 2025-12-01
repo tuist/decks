@@ -18,12 +18,12 @@
 // MARK: - Fonts
 
 // swiftlint:disable identifier_name line_length type_body_length
-public enum IceCubesAppFontFamily {
-  public enum AtkinsonHyperlegible {
+public enum IceCubesAppFontFamily: Sendable {
+  public enum AtkinsonHyperlegible: Sendable {
     public static let regular = IceCubesAppFontConvertible(name: "AtkinsonHyperlegible-Regular", family: "Atkinson Hyperlegible", path: "Atkinson-Hyperlegible-Regular-102.ttf")
     public static let all: [IceCubesAppFontConvertible] = [regular]
   }
-  public enum OpenDyslexic {
+  public enum OpenDyslexic: Sendable {
     public static let regular = IceCubesAppFontConvertible(name: "OpenDyslexic-Regular", family: "OpenDyslexic", path: "OpenDyslexic-Regular.otf")
     public static let all: [IceCubesAppFontConvertible] = [regular]
   }
@@ -36,7 +36,7 @@ public enum IceCubesAppFontFamily {
 
 // MARK: - Implementation Details
 
-public struct IceCubesAppFontConvertible {
+public struct IceCubesAppFontConvertible: Sendable {
   public let name: String
   public let family: String
   public let path: String

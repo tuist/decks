@@ -2,28 +2,23 @@
 // swift-format-ignore-file
 // swiftformat:disable all
 import Foundation
-
-// MARK: - Swift Bundle Accessor
-
+// MARK: - Swift Bundle Accessor - for SPM
 private class BundleFinder {}
-
 extension Foundation.Bundle {
-/// Since DesignSystem is a staticFramework, the bundle containing the resources is copied into the final product.
+/// Since DesignSystem is a static framework, the bundle containing the resources is copied into the final product.
 static let module: Bundle = {
     let bundleName = "DesignSystem_DesignSystem"
-
+    let bundleFinderResourceURL = Bundle(for: BundleFinder.self).resourceURL
     var candidates = [
         Bundle.main.resourceURL,
-        Bundle(for: BundleFinder.self).resourceURL,
+        bundleFinderResourceURL,
         Bundle.main.bundleURL,
     ]
-
     // This is a fix to make Previews work with bundled resources.
     // Logic here is taken from SPM's generated `resource_bundle_accessors.swift` file,
     // which is located under the derived data directory after building the project.
     if let override = ProcessInfo.processInfo.environment["PACKAGE_RESOURCE_BUNDLE_PATH"] {
         candidates.append(URL(fileURLWithPath: override))
-
         // Deleting derived data and not rebuilding the frameworks containing resources may result in a state
         // where the bundles are only available in the framework's directory that is actively being previewed.
         // Since we don't know which framework this is, we also need to look in all the framework subpaths.
@@ -36,6 +31,13 @@ static let module: Bundle = {
         }
     }
 
+    // This is a fix to make unit tests work with bundled resources.
+    // Making this change allows unit tests to search one directory up for a bundle.
+    // More context can be found in this PR: https://github.com/tuist/tuist/pull/6895
+    #if canImport(XCTest)
+    candidates.append(bundleFinderResourceURL?.appendingPathComponent(".."))
+    #endif
+
     for candidate in candidates {
         let bundlePath = candidate?.appendingPathComponent(bundleName + ".bundle")
         if let bundle = bundlePath.flatMap(Bundle.init(url:)) {
@@ -46,13 +48,5 @@ static let module: Bundle = {
 }()
 }
 
-// MARK: - Objective-C Bundle Accessor
-
-@objc
-public class DesignSystemResources: NSObject {
-@objc public class var bundle: Bundle {
-    return .module
-}
-}
-// swiftlint:enable all
 // swiftformat:enable all
+// swiftlint:enable all
